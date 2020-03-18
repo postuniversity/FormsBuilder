@@ -1,0 +1,1414 @@
+<Export>
+  <ExportedSequences>
+    <Sequence>
+      <Id>0</Id>
+      <Name>GraduationApplication_Seq</Name>
+      <Url></Url>
+      <Title>GraduationApplication_Seq</Title>
+      <Description></Description>
+      <WorkflowDefinitionId>0</WorkflowDefinitionId>
+      <IsAnonymous>false</IsAnonymous>
+      <EndStateForm>GraduationApplication_EndForm</EndStateForm>
+      <AuthenticationProduct>Student</AuthenticationProduct>
+      <KendoTheme>Silver</KendoTheme>
+      <BootstrapTheme>Post Boot Strap</BootstrapTheme>
+      <CustomTheme></CustomTheme>
+      <NavigationButtonsPosition>0</NavigationButtonsPosition>
+      <Role>Student</Role>
+      <Header></Header>
+      <Footer></Footer>
+      <AutoLogout>false</AutoLogout>
+      <OriginalState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</OriginalState>
+      <SecureState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</SecureState>
+      <EntityState>0</EntityState>
+    </Sequence>
+    <Forms>
+      <Id>0</Id>
+      <Name>GraduationApplication</Name>
+      <Title></Title>
+      <Description></Description>
+      <Json>{"name":"GraduationApplication","title":"","description":"","id":1049,"formsections":[{"columns":[[{"ControlType":"HTML","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"HTML","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"HTML","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"af466000-073d-c198-f1fc-26b37836ab1d","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"HTML","DisplayName":"HTML","Value":"&lt;h3&gt;&lt;b&gt;PERSONAL INFORMATION&lt;/b&gt;&lt;/h3&gt;","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"id1d7c2d29-a707-0784-981e-ae44c83713ee","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":11,"uuid":"af466000-073d-c198-f1fc-26b37836ab1d"}]],"uuid":"c56f3788-5081-59f4-34c1-d7426948421a","formSectionId":"idc970df29-706a-0ba0-070a-ed7c5fb5b851","mergeWithNext":true,"mergeWithPrevious":false,"isVisible":"true","title":"","description":"","cssClass":"","spanDefinitions":[{"NumberOfColumnsSpanned":12,"CanIncreaseSpan":false,"CanDecreaseSpan":true}]},{"columns":[[{"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"e3f0be73-e69d-be70-dad9-b5bf0ba8d86f","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"StudentEntityStudentNumber","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"Student Number","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaximumLength","DisplayName":"Max Length","Value":"10","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMaximumValue","DisplayName":"Maximum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MinimumLength","DisplayName":"Min Length","Value":"1","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMinimumValue","DisplayName":"Minimum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.studentEntity.StudentNumber","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Editable","DisplayName":"Read-only","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"If your institution assigns student numbers, the number your institution uses to identify the student. How the number is assigned, is specified by your institution. For example, CampusNexus Student can be configured to assign the number or your institution can use some other method for assigning the ID.","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"InputType","DisplayName":"Type","Value":"text","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"text,password,email,number,url","EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"ControlType":"Text","ClrType":"Cmc.Nexus.Common.Entities.StudentEntity, Cmc.Nexus.Common.Contracts","DisplayName":"Student Number","CustomProperty":false,"EntityDisplayName":"Student","EntityName":"StudentEntity","IsNavigation":false,"Name":"StudentNumber","NavigationPropertyContainers":[],"FirstPart":null,"SearchText":null,"LastPart":null,"index":61,"uuid":"e3f0be73-e69d-be70-dad9-b5bf0ba8d86f"}],[{"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"1156167e-c2a6-acac-c16a-84255bcff0b0","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"StudentEntityFirstName","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"First Name","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaximumLength","DisplayName":"Max Length","Value":"25","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMaximumValue","DisplayName":"Maximum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MinimumLength","DisplayName":"Min Length","Value":"1","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMinimumValue","DisplayName":"Minimum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.studentEntity.FirstName","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"The first name of the student or person.","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"InputType","DisplayName":"Type","Value":"text","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"text,password,email,number,url","EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"ControlType":"Text","ClrType":"Cmc.Nexus.Common.Entities.StudentEntity, Cmc.Nexus.Common.Contracts","DisplayName":"First Name","CustomProperty":false,"EntityDisplayName":"Student","EntityName":"StudentEntity","IsNavigation":false,"Name":"FirstName","NavigationPropertyContainers":[],"FirstPart":null,"SearchText":null,"LastPart":null,"index":23,"uuid":"1156167e-c2a6-acac-c16a-84255bcff0b0"}],[{"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"4a5fadb3-64da-c602-a733-1713790a1f75","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"StudentEntityLastName","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"Last Name","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaximumLength","DisplayName":"Max Length","Value":"25","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMaximumValue","DisplayName":"Maximum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MinimumLength","DisplayName":"Min Length","Value":"1","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMinimumValue","DisplayName":"Minimum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.studentEntity.LastName","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"The last name of the student or person.","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"InputType","DisplayName":"Type","Value":"text","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"text,password,email,number,url","EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"ControlType":"Text","ClrType":"Cmc.Nexus.Common.Entities.StudentEntity, Cmc.Nexus.Common.Contracts","DisplayName":"Last Name","CustomProperty":false,"EntityDisplayName":"Student","EntityName":"StudentEntity","IsNavigation":false,"Name":"LastName","NavigationPropertyContainers":[],"FirstPart":"","SearchText":"Last","LastPart":" Name","index":1,"enabled":true,"uuid":"4a5fadb3-64da-c602-a733-1713790a1f75"}]],"uuid":"137694a2-26a1-4778-4906-acf9f190a53c","formSectionId":"id3cf53108-57f9-6b35-4a82-9443b2dab75f","mergeWithNext":false,"mergeWithPrevious":false,"isVisible":"true","title":"","description":"","cssClass":"","spanDefinitions":[{"NumberOfColumnsSpanned":4,"CanIncreaseSpan":false,"CanDecreaseSpan":true},{"NumberOfColumnsSpanned":4,"CanIncreaseSpan":false,"CanDecreaseSpan":true},{"NumberOfColumnsSpanned":4,"CanIncreaseSpan":false,"CanDecreaseSpan":true}]},{"columns":[[{"ControlType":"HTML","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"HTML","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"HTML","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"8610ce84-dea8-7396-b58b-9dda0d9d66cd","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"HTML","DisplayName":"HTML","Value":"&lt;/br&gt;&lt;font size=\"4px\"&gt;&lt;b&gt;If address below is incorrect, please make changes before submitting the application.&lt;/b&gt;&lt;/font&gt;","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"id477e4e8e-c6fc-7732-235c-15451a47a1ff","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":11,"uuid":"8610ce84-dea8-7396-b58b-9dda0d9d66cd"}]],"uuid":"8074b87a-4995-d7ff-4573-7b19afce9746","formSectionId":"id9cf98cec-383b-5e16-57d3-c7e693be09f8","mergeWithNext":true,"mergeWithPrevious":false,"isVisible":"true","title":"","description":"","cssClass":"","spanDefinitions":[{"NumberOfColumnsSpanned":12,"CanIncreaseSpan":false,"CanDecreaseSpan":true}]},{"columns":[[{"ControlType":"MaskedTextBox","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"Masked Text Box","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Masked Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"36efe053-8753-79db-129c-f146bc0ca053","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaskFormat","DisplayName":"Format","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"idc44d1cd5-461b-3e7c-fd5b-c4fe0c61c16e","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"Street Address","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.studentEntity.StreetAddress","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"The street address.  If the address line exceeds 40 characters, you must abbreviate some elements of the address. For student addresses, if an address has more than 40 characters, the additional characters in the address line will not be extracted to be sent to COD, but will be truncated.","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaskPatternMessage","DisplayName":"Validation Message","Value":"The field is not valid.Please try removing some special characters","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaskPattern","DisplayName":"Validation Regex","Value":"^[^\\s][0-9a-zA-ZÀ-ÿ\\s\\/.,-]{1,250}$","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":17,"uuid":"36efe053-8753-79db-129c-f146bc0ca053"}]],"uuid":"ebee6a3c-01f1-133f-2e88-5789c69201d3","formSectionId":"ida425f298-699a-b016-fb9f-026cd39dde83","mergeWithNext":true,"mergeWithPrevious":false,"isVisible":"true","title":"","description":"","cssClass":"","spanDefinitions":[{"NumberOfColumnsSpanned":6,"CanIncreaseSpan":true,"CanDecreaseSpan":true}]},{"columns":[[{"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Single-select Search","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"10a1925b-d779-d5e1-8e46-26937413b65a","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Filter","DisplayName":"Filter Type","Value":"contains","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"startswith,endswith,contains","EditQuery":null},{"Name":"SearchGridColumns","DisplayName":"Grid Columns","Value":"[{\"field\":\"Name\",\"title\":\"Name\"}]","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"StudentEntityCountryId","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"Country","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"LookupQueryDisplayColumn","DisplayName":"Lookup Display Member","Value":"Name","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"LookupQueryName","DisplayName":"Lookup Query","Value":"Countries?$select=Code,Name,Id&amp;$filter=IsActive eq true","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"LookupQueryTranslationMembers","DisplayName":"Lookup Translation Members","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"LookupQueryValueColumn","DisplayName":"Lookup Value Member","Value":"Id","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.studentEntity.CountryId","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"ProductName","DisplayName":"Product","Value":"Student","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"CRM,Occupation Insight,Student","EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"The country of residence. If you are specifying a country, it defaults to the country for the campus. The country also determines the format of phone numbers. If you change the country, the phone numbers are automatically reformatted to the format for that country.","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"ControlType":"search","ClrType":"Cmc.Nexus.Common.Entities.StudentEntity, Cmc.Nexus.Common.Contracts","DisplayName":"Country","CustomProperty":false,"EntityDisplayName":"Student","EntityName":"StudentEntity","IsNavigation":false,"Name":"CountryId","NavigationPropertyContainers":[],"FirstPart":"","SearchText":"Country","LastPart":"","index":0,"enabled":true,"uuid":"10a1925b-d779-d5e1-8e46-26937413b65a"}],[{"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Drop-down List","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"55468f0e-7bec-68f5-2f06-3403ee907d74","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DropdownDefaultValue","DisplayName":"Default Value","Value":"string","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"string,number,null","EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Filter","DisplayName":"Filter Type","Value":"contains","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"startswith,endswith,contains","EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"StudentEntityState","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"State","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"LookupQueryDisplayColumn","DisplayName":"Lookup Display Member","Value":"Name","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"LookupQueryName","DisplayName":"Lookup Query","Value":"UsaStates?$select=Code,Name,Id&amp;$filter=IsActive eq true","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"LookupQuerySortColumn","DisplayName":"Lookup Sort Member","Value":"Code","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"LookupQueryTranslationMembers","DisplayName":"Lookup Translation Members","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"LookupQueryValueColumn","DisplayName":"Lookup Value Member","Value":"Code","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.studentEntity.State","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"OptionLabel","DisplayName":"Option Label","Value":"&lt;Select&gt;","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"PageSize","DisplayName":"Page Size","Value":"100","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"ProductName","DisplayName":"Product","Value":"Student","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"CRM,Occupation Insight,Student","EditQuery":null},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"ServerFiltering","DisplayName":"Server Filtering","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Checkbox","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Template","DisplayName":"Template","Value":"","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"If within the United States, the name of the state.","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"ControlValueList","DisplayName":"Value List","Value":"","IsEditable":false,"IsVisible":false,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"ControlValueListModel","DisplayName":"Value List","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Button","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"ControlType":"dropdown","ClrType":"Cmc.Nexus.Common.Entities.StudentEntity, Cmc.Nexus.Common.Contracts","DisplayName":"State","CustomProperty":false,"EntityDisplayName":"Student","EntityName":"StudentEntity","IsNavigation":false,"Name":"State","NavigationPropertyContainers":[],"FirstPart":"","SearchText":"State","LastPart":"","index":2,"enabled":true,"uuid":"55468f0e-7bec-68f5-2f06-3403ee907d74"}],[{"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"f7d1c216-079e-affa-cd2f-307a4316ff13","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"StudentEntityCity","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"City","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaximumLength","DisplayName":"Max Length","Value":"25","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMaximumValue","DisplayName":"Maximum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MinimumLength","DisplayName":"Min Length","Value":"1","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMinimumValue","DisplayName":"Minimum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.studentEntity.City","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"The name of the city.","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"InputType","DisplayName":"Type","Value":"text","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"text,password,email,number,url","EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"ControlType":"Text","ClrType":"Cmc.Nexus.Common.Entities.StudentEntity, Cmc.Nexus.Common.Contracts","DisplayName":"City","CustomProperty":false,"EntityDisplayName":"Student","EntityName":"StudentEntity","IsNavigation":false,"Name":"City","NavigationPropertyContainers":[],"FirstPart":"","SearchText":"City","LastPart":"","index":0,"enabled":true,"uuid":"f7d1c216-079e-affa-cd2f-307a4316ff13"}],[{"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"61813f8a-1b8c-f744-714b-2e16b540a5bf","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"StudentEntityPostalCode","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"ZIP Code/Postal Code","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaximumLength","DisplayName":"Max Length","Value":"10","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMaximumValue","DisplayName":"Maximum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MinimumLength","DisplayName":"Min Length","Value":"1","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMinimumValue","DisplayName":"Minimum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.studentEntity.PostalCode","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"The postal code for the address. If you are specifying an address, you must specify a value for City or State. If you specify a city or state or both, the list contains the valid zip codes.","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"InputType","DisplayName":"Type","Value":"text","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"text,password,email,number,url","EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"ControlType":"Text","ClrType":"Cmc.Nexus.Common.Entities.StudentEntity, Cmc.Nexus.Common.Contracts","DisplayName":"Postal Code","CustomProperty":false,"EntityDisplayName":"Student","EntityName":"StudentEntity","IsNavigation":false,"Name":"PostalCode","NavigationPropertyContainers":[],"FirstPart":"","SearchText":"Postal","LastPart":" Code","index":0,"enabled":true,"uuid":"61813f8a-1b8c-f744-714b-2e16b540a5bf"}]],"uuid":"062d022c-0241-0919-4734-bc8697042fa4","formSectionId":"idd2b27405-a923-53d9-42fd-1a72810a60d5","mergeWithNext":false,"mergeWithPrevious":true,"isVisible":"true","title":"","description":"","cssClass":"","spanDefinitions":[{"NumberOfColumnsSpanned":3,"CanIncreaseSpan":false,"CanDecreaseSpan":true},{"NumberOfColumnsSpanned":3,"CanIncreaseSpan":false,"CanDecreaseSpan":true},{"NumberOfColumnsSpanned":3,"CanIncreaseSpan":false,"CanDecreaseSpan":true},{"NumberOfColumnsSpanned":3,"CanIncreaseSpan":false,"CanDecreaseSpan":true}]},{"columns":[[{"ControlType":"MaskedTextBox","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"Masked Text Box","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Masked Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"524cafe8-3288-c417-14fa-d2e83ed7b831","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaskFormat","DisplayName":"Format","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"id0b684c42-432a-c2ed-0ecf-ca8da74b7fd5","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"Phone Number","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.studentEntity.MobilePhoneNumber","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"(###)###-####","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"Specifies the mobile phone number. A mobile number must be specified if the student wants to receive SMS text messages. It must also be specified if you select the Subscribe to SMS check box.","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaskPatternMessage","DisplayName":"Validation Message","Value":"Please enter valid phone number in (###)###-#### format","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaskPattern","DisplayName":"Validation Regex","Value":"^[(]{1}[0-9]{3}[)]{1}[0-9]{3}-[0-9]{4}$","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":17,"uuid":"524cafe8-3288-c417-14fa-d2e83ed7b831"},{"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"870d1d62-332d-a187-0495-b9616438dea7","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"StudentEntityEmailAddress","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"Student Email Address","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaximumLength","DisplayName":"Max Length","Value":"50","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMaximumValue","DisplayName":"Maximum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MinimumLength","DisplayName":"Min Length","Value":"1","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMinimumValue","DisplayName":"Minimum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.studentEntity.EmailAddress","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"The email address.","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"InputType","DisplayName":"Type","Value":"text","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"text,password,email,number,url","EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"ControlType":"Text","ClrType":"Cmc.Nexus.Common.Entities.StudentEntity, Cmc.Nexus.Common.Contracts","DisplayName":"e-Mail","CustomProperty":false,"EntityDisplayName":"Student","EntityName":"StudentEntity","IsNavigation":false,"Name":"EmailAddress","NavigationPropertyContainers":[],"FirstPart":"e-","SearchText":"Mail","LastPart":"","index":0,"enabled":true,"uuid":"870d1d62-332d-a187-0495-b9616438dea7"},{"ControlType":"MaskedTextBox","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"Masked Text Box","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Masked Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"e48e1093-df09-a021-124d-60536efa6547","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaskFormat","DisplayName":"Format","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"id58816c48-3070-e20c-dd24-0d6b2843e18a","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"Name to Appear on Diploma","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.studentEntity.CustomProperties['DIPPRINTNAME']","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaskPatternMessage","DisplayName":"Validation Message","Value":"The field is invalid.Please enter valid character","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaskPattern","DisplayName":"Validation Regex","Value":"^[^\\s][a-zA-ZÀ-ÿ\\s.,]{1,50}$","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":17,"uuid":"e48e1093-df09-a021-124d-60536efa6547"}],[{"ControlType":"MaskedTextBox","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"Masked Text Box","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Masked Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"81907b01-d83f-2856-941f-f79b45bc1c13","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaskFormat","DisplayName":"Format","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"id4961bf31-5f77-dca7-1e50-7410d118ab20","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"Mobile Phone Number","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.studentEntity.OtherPhoneNumber","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaskPatternMessage","DisplayName":"Validation Message","Value":"Please enter valid phone number in (###)###-#### format","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaskPattern","DisplayName":"Validation Regex","Value":"^[(]{1}[0-9]{3}[)]{1}[0-9]{3}-[0-9]{4}$","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":17,"uuid":"81907b01-d83f-2856-941f-f79b45bc1c13"},{"ControlType":"MaskedTextBox","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"Masked Text Box","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Masked Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"5f649c86-df3c-44fc-20e1-734151cef55c","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaskFormat","DisplayName":"Format","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"ida72751ac-8270-0ce9-f49e-41a3eff8e332","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"Other Email Address","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.studentEntity.OtherEmailAddress","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaskPatternMessage","DisplayName":"Validation Message","Value":"The email is not valid","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaskPattern","DisplayName":"Validation Regex","Value":"^([0-9a-zA-Z]([-.\\w]*[0-9a-zA-Z])*@(([0-9a-zA-Z])+([-\\w]*[0-9a-zA-Z])*\\.)+[a-zA-Z]{2,9})$","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":17,"uuid":"5f649c86-df3c-44fc-20e1-734151cef55c"}]],"uuid":"a25cb682-04f9-3570-47fa-d1c2562af82a","formSectionId":"id828d8726-7c82-2150-9595-54d7c8be1843","mergeWithNext":false,"mergeWithPrevious":false,"isVisible":"true","title":"","description":"","cssClass":"","spanDefinitions":[{"NumberOfColumnsSpanned":5,"CanIncreaseSpan":true,"CanDecreaseSpan":true},{"NumberOfColumnsSpanned":4,"CanIncreaseSpan":true,"CanDecreaseSpan":true}]},{"columns":[[{"ControlType":"HTML","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"HTML","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"HTML","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"d2a2f676-0066-4bfb-14ff-4f8cb63a8745","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"HTML","DisplayName":"HTML","Value":"&lt;h3&gt;&lt;b&gt;DEGREE INFORMATION&lt;/b&gt;&lt;/h3&gt;","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"ida661db4c-c714-11b6-b396-09a578f29a18","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":11,"uuid":"d2a2f676-0066-4bfb-14ff-4f8cb63a8745"}]],"uuid":"4b225a95-4274-6686-6e24-84ce76f5e2b5","formSectionId":"idb42a3f59-6195-1346-c6e9-28262f40b710","mergeWithNext":true,"mergeWithPrevious":false,"isVisible":"true","title":"","description":"","cssClass":"","spanDefinitions":[{"NumberOfColumnsSpanned":12,"CanIncreaseSpan":false,"CanDecreaseSpan":true}]},{"columns":[[{"ControlType":"HTML","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"HTML","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"HTML","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"68dd3407-8e75-7d6b-0f36-e7d3228f9b47","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"HTML","DisplayName":"HTML","Value":"","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"id9bda80dd-ba6c-6972-c27f-f9c7378a209f","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":11,"uuid":"68dd3407-8e75-7d6b-0f36-e7d3228f9b47"},{"ControlType":"Grid","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"Grid","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Grid","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"c75e7c1c-b6ad-c62e-b200-ff13aaf7eb5c","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"GridAddRecordMessage","DisplayName":"Add Message","Value":"Add New Record","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"GridColumns","DisplayName":"Columns","Value":"{\"columnData\":[{\"field\":\"ProgramVersionName\",\"title\":\"Degree\",\"dataType\":\"string\",\"isRequired\":false,\"sortable\":false,\"canEdit\":false,\"filterable\":false,\"dropdownListStorage\":{}},{\"field\":\"GraduationDate\",\"title\":\"Graduation Date\",\"format\":\"{0:d}\",\"dataType\":\"date\",\"isRequired\":false,\"sortable\":true,\"canEdit\":true,\"filterable\":true,\"dropdownListStorage\":{}}],\"isEditable\":false,\"isAddable\":false,\"isDeletable\":false,\"typeOfEditor\":\"popup\",\"addLocation\":\"bottom\",\"schemaIdName\":\"Id\"}","IsEditable":true,"IsVisible":true,"EditType":"Button","EditDropdownListValues":null,"EditQuery":null},{"Name":"GridFilterable","DisplayName":"Filterable","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Checkbox","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"id663dce2e-243d-f38b-b1be-7fe745c719a0","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"GridModel","DisplayName":"Model","Value":"vm.models.degreeInfoGrid","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"GridModelInitialData","DisplayName":"Model Data","Value":"","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"GridOdataQuery","DisplayName":"OData Query","Value":"StudentEnrollmentPeriods?$filter=Student/Id eq {{vm.models.studentEntity.Id}}  and (SchoolStatus/Name eq 'Pending Graduate' or SchoolStatus/Name eq 'Graduate') and (Id eq {{vm.models.validEnrollments}}) &amp;$select=Id,ProgramVersionName,GraduationDate","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"GridPageSize","DisplayName":"Page Size","Value":"20","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"GridPageable","DisplayName":"Pageable","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Checkbox","EditDropdownListValues":null,"EditQuery":null},{"Name":"ProductName","DisplayName":"Product","Value":"Student","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"CRM,Occupation Insight,Student","EditQuery":null},{"Name":"GridSortable","DisplayName":"Sortable","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Checkbox","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P"],"index":10,"uuid":"c75e7c1c-b6ad-c62e-b200-ff13aaf7eb5c"},{"ControlType":"HTML","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"HTML","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"HTML","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"0a7cc71c-fc84-5ee0-bc67-a29559465233","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"HTML","DisplayName":"HTML","Value":"&lt;h4&gt;&lt;b&gt;Note: $90 will be charged for each degree as Graduation Fee&lt;/b&gt;&lt;/h4&gt;","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"idd3940e6d-be0b-5a69-b7cc-bfb404ceec1a","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":11,"uuid":"0a7cc71c-fc84-5ee0-bc67-a29559465233"}]],"uuid":"6bb9dcbf-4850-c83d-84c3-254e7bf3b96e","formSectionId":"id561eaf52-04f5-5c52-06e8-7ca8b939a976","mergeWithNext":false,"mergeWithPrevious":false,"isVisible":"true","title":"","description":"","cssClass":"","spanDefinitions":[{"NumberOfColumnsSpanned":8,"CanIncreaseSpan":true,"CanDecreaseSpan":true}]},{"columns":[[{"ControlType":"HTML","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"HTML","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"HTML","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"cb11e233-4796-7c72-9be9-422eb3f06adf","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"HTML","DisplayName":"HTML","Value":"&lt;h3&gt;&lt;b&gt;CEREMONY AND APPROVAL INFORMATION&lt;/b&gt;&lt;/h3&gt;","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"id8a84a545-3695-a41f-e8ad-12a956bce511","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":11,"uuid":"cb11e233-4796-7c72-9be9-422eb3f06adf"}]],"uuid":"eb50c14e-19c1-1819-0689-67e8e72c41f0","formSectionId":"iddeaa547e-18bb-ee42-3552-8de609748049","mergeWithNext":true,"mergeWithPrevious":false,"isVisible":"true","title":"","description":"","cssClass":"","spanDefinitions":[{"NumberOfColumnsSpanned":12,"CanIncreaseSpan":false,"CanDecreaseSpan":true}]},{"columns":[[{"ControlType":"HTML","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"HTML","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"HTML","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"568e7969-e224-899d-13ca-714e0c3427fb","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"HTML","DisplayName":"HTML","Value":"","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"ide85ab3ef-5bcf-fb7f-cc2c-4aff2b4ce579","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":11,"uuid":"568e7969-e224-899d-13ca-714e0c3427fb"},{"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Drop-down List","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"92491b1b-8241-74a9-2725-2ea67821f1ba","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DropdownDefaultValue","DisplayName":"Default Value","Value":"string","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"string,number,null","EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Filter","DisplayName":"Filter Type","Value":"contains","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"startswith,endswith,contains","EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"StudentEntitysdfcomm","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"Are you attending Commencement Ceremony","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"LookupQueryDisplayColumn","DisplayName":"Lookup Display Member","Value":"Name","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"LookupQueryName","DisplayName":"Lookup Query","Value":"SchoolDefinedFields/CampusNexus.GetFieldValueOptions(schoolDefinedFieldId=25)/","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"LookupQuerySortColumn","DisplayName":"Lookup Sort Member","Value":"Name","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"LookupQueryTranslationMembers","DisplayName":"Lookup Translation Members","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"LookupQueryValueColumn","DisplayName":"Lookup Value Member","Value":"Name","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.studentEntity.CustomProperties['sdfcomm']","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"OptionLabel","DisplayName":"Option Label","Value":"&lt;Select&gt;","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"PageSize","DisplayName":"Page Size","Value":"100","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"ProductName","DisplayName":"Product","Value":"Student","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"CRM,Occupation Insight,Student","EditQuery":null},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"ServerFiltering","DisplayName":"Server Filtering","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Checkbox","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Template","DisplayName":"Template","Value":"","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"Please indicate if you plan to attend the ceremony.","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"ControlValueList","DisplayName":"Value List","Value":"","IsEditable":false,"IsVisible":false,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"ControlValueListModel","DisplayName":"Value List","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Button","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"ControlType":"dropdown","ClrType":"Cmc.Nexus.Common.Entities.StudentEntity, Cmc.Nexus.Common.Contracts","DisplayName":"Attending Commencement Ceremony","CustomProperty":true,"EntityDisplayName":"Student","EntityName":"StudentEntity","IsNavigation":false,"Name":"sdfcomm","NavigationPropertyContainers":[],"FirstPart":"Attending Commencement ","SearchText":"Ceremony","LastPart":"","index":0,"enabled":true,"uuid":"92491b1b-8241-74a9-2725-2ea67821f1ba"},{"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Drop-down List","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"1d5340db-7dc9-14e9-3ca9-ecb86a56c056","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DropdownDefaultValue","DisplayName":"Default Value","Value":"string","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"string,number,null","EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Filter","DisplayName":"Filter Type","Value":"contains","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"startswith,endswith,contains","EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"StudentEntitycerdate","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"Commencement Event Date","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"LookupQueryDisplayColumn","DisplayName":"Lookup Display Member","Value":"Name","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"LookupQueryName","DisplayName":"Lookup Query","Value":"SchoolDefinedFields/CampusNexus.GetFieldValueOptions(schoolDefinedFieldId=26)/","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"LookupQuerySortColumn","DisplayName":"Lookup Sort Member","Value":"Name","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"LookupQueryTranslationMembers","DisplayName":"Lookup Translation Members","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"LookupQueryValueColumn","DisplayName":"Lookup Value Member","Value":"Name","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.studentEntity.CustomProperties['cerdate']","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"OptionLabel","DisplayName":"Option Label","Value":"&lt;Select&gt;","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"PageSize","DisplayName":"Page Size","Value":"100","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"ProductName","DisplayName":"Product","Value":"Student","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"CRM,Occupation Insight,Student","EditQuery":null},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"ServerFiltering","DisplayName":"Server Filtering","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Checkbox","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Template","DisplayName":"Template","Value":"","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"Commencement Event Date","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"ControlValueList","DisplayName":"Value List","Value":"","IsEditable":false,"IsVisible":false,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"ControlValueListModel","DisplayName":"Value List","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Button","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"ControlType":"dropdown","ClrType":"Cmc.Nexus.Common.Entities.StudentEntity, Cmc.Nexus.Common.Contracts","DisplayName":"Commencement Event Date","CustomProperty":true,"EntityDisplayName":"Student","EntityName":"StudentEntity","IsNavigation":false,"Name":"cerdate","NavigationPropertyContainers":[],"FirstPart":null,"SearchText":null,"LastPart":null,"index":11,"uuid":"1d5340db-7dc9-14e9-3ca9-ecb86a56c056"}]],"uuid":"fd4310bc-74a5-bd51-c1f9-d890fa6b6a9e","formSectionId":"id745fd89f-042a-2d14-ca23-cb746232f358","mergeWithNext":true,"mergeWithPrevious":false,"isVisible":"true","title":"","description":"","cssClass":"","spanDefinitions":[{"NumberOfColumnsSpanned":8,"CanIncreaseSpan":true,"CanDecreaseSpan":true}]},{"columns":[[{"ControlType":"HTML","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"HTML","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"HTML","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"c302709e-d8fe-4d50-ba3e-2f43d2b4b560","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"HTML","DisplayName":"HTML","Value":"&lt;br&gt;I understand the requirements for graduation as outlined in the  Post University Catalog. I assume the final responsibility for meeting all degree/graduation requirements.\n&lt;br&gt;&lt;br&gt;\nEntering my name below and submitting this form acts as my electronic signature approval. It gives Post University permission to:\n&lt;br&gt;\n&amp;emsp;&amp;emsp;&amp;emsp; &amp;nbsp;&lt;ul&gt;\n  &lt;li&gt;Approve and process this graduation application&lt;/li&gt;\n  &lt;li&gt;Charge my student account for graduation fee&lt;/li&gt;\n  &lt;li&gt;Use my likeness and/or quote from my comments, without charge, for promotional purposes in college publications, advertising, video, web pages, email, social media, or in other formats.&lt;/li&gt;\n&lt;/ul&gt;&lt;br&gt;","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"idf9445523-b696-433a-c878-c30fdbc23f4a","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":11,"uuid":"c302709e-d8fe-4d50-ba3e-2f43d2b4b560"}]],"uuid":"544a1f15-e9eb-78c7-834b-967d56189479","formSectionId":"ida77074e4-5c72-855a-3c82-d78f73629627","mergeWithNext":false,"mergeWithPrevious":false,"isVisible":"true","title":"","description":"","cssClass":"","spanDefinitions":[{"NumberOfColumnsSpanned":12,"CanIncreaseSpan":false,"CanDecreaseSpan":true}]},{"columns":[[{"ControlType":"Text","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"Text Box","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"3c7ddea2-ccc1-174a-c91e-6c73ea21eddf","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"id23866601-81a6-c090-9963-9e76c10f0fb3","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"E-Sign","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaximumLength","DisplayName":"Max Length","Value":"50","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMaximumValue","DisplayName":"Maximum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MinimumLength","DisplayName":"Min Length","Value":"1","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMinimumValue","DisplayName":"Minimum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.esign","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"InputType","DisplayName":"Type","Value":"text","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"text,password,email,number,url","EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":26,"uuid":"3c7ddea2-ccc1-174a-c91e-6c73ea21eddf"}],[{"ControlType":"Text","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"Text Box","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"Text Box","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"f88fa756-4717-b75a-65bc-31b414491c6d","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Disabled","DisplayName":"Disabled","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"id33b84a84-95bc-5f64-37f7-3923aa3fee10","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"DisplayName","DisplayName":"Label","Value":"Date","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MaximumLength","DisplayName":"Max Length","Value":"50","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMaximumValue","DisplayName":"Maximum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"MinimumLength","DisplayName":"Min Length","Value":"1","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"NumberMinimumValue","DisplayName":"Minimum Value","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Model","DisplayName":"Model","Value":"vm.models.currentDate","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Placeholder","DisplayName":"Placeholder","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Editable","DisplayName":"Read-only","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Required","DisplayName":"Required","Value":"false","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"RequiredMessage","DisplayName":"Required Message","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TabIndex","DisplayName":"Tab Index","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Description","DisplayName":"Tooltip","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"TooltipDuration","DisplayName":"Tooltip Duration","Value":"750","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"InputType","DisplayName":"Type","Value":"text","IsEditable":true,"IsVisible":true,"EditType":"DropdownList","EditDropdownListValues":"text,password,email,number,url","EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":26,"uuid":"f88fa756-4717-b75a-65bc-31b414491c6d"}],[]],"uuid":"204ca57c-f3b2-8fee-026f-dba34c91037a","formSectionId":"id8a1a4589-2e4b-1dd1-13cf-f56ff9175189","mergeWithNext":false,"mergeWithPrevious":false,"isVisible":"true","title":"","description":"","cssClass":"","spanDefinitions":[{"NumberOfColumnsSpanned":4,"CanIncreaseSpan":false,"CanDecreaseSpan":true},{"NumberOfColumnsSpanned":4,"CanIncreaseSpan":false,"CanDecreaseSpan":true},{"NumberOfColumnsSpanned":4,"CanIncreaseSpan":false,"CanDecreaseSpan":true}]}],"isEndState":false,"includeInViewSummary":true,"cssClass":"","formId":"id5a296d45-95f5-0123-cbe9-680889e4c7af","uuid":"2a659b0c-7393-7aed-a800-ffe36a1e4f63"}</Json>
+      <Html>&lt;style&gt;  #idc970df29-706a-0ba0-070a-ed7c5fb5b851 { border-bottom-left-radius: 0;border-bottom-right-radius: 0;border-bottom-width: 0;margin-bottom: 0;padding-bottom: 0;}&lt;/style&gt;&lt;div id="idc970df29-706a-0ba0-070a-ed7c5fb5b851" ng-show="true" class="panel panel-default"&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-12 col-md-12"&gt;&lt;div id="id1d7c2d29-a707-0784-981e-ae44c83713ee" ng-show="true" class="form-group  cmc-div-htmlpage"&gt;
+    &lt;h3&gt;&lt;b&gt;PERSONAL INFORMATION&lt;/b&gt;&lt;/h3&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="id3cf53108-57f9-6b35-4a82-9443b2dab75f" ng-show="true" class="panel panel-default"&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;div ng-show="true" class="form-group cmc-div-textbox"&gt;
+    &lt;cmc-input-text 
+        cmc-id="StudentEntityStudentNumber" 
+        cmc-model="vm.models.studentEntity.StudentNumber" 
+        cmc-class="" 
+        cmc-disabled="true" 
+        cmc-visible="true" 
+        cmc-label="{{ 'Student Number' | translate }}" 
+        cmc-input-type="'text'"
+        cmc-tooltip="{{ 'If your institution assigns student numbers, the number your institution uses to identify the student. How the number is assigned, is specified by your institution. For example, CampusNexus Student can be configured to assign the number or your institution can use some other method for assigning the ID.' | translate }}" 
+        cmc-tooltip-duration="750"
+        cmc-required="false" 
+        cmc-tab-index=""
+        cmc-required-message="" 
+        cmc-readonly="true" 
+        cmc-min-length="1" 
+        cmc-max-length="10"
+        cmc-min=""
+        cmc-max=""
+        cmc-ref="vm.controlRefs.values['StudentEntityStudentNumber']"
+        cmc-change="vm.textBoxChange(payload)"
+        cmc-blur="vm.textBoxBlur(payload)"
+        cmc-place-holder=""&gt;
+    &lt;/cmc-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;div ng-show="true" class="form-group cmc-div-textbox"&gt;
+    &lt;cmc-input-text 
+        cmc-id="StudentEntityFirstName" 
+        cmc-model="vm.models.studentEntity.FirstName" 
+        cmc-class="" 
+        cmc-disabled="true" 
+        cmc-visible="true" 
+        cmc-label="{{ 'First Name' | translate }}" 
+        cmc-input-type="'text'"
+        cmc-tooltip="{{ 'The first name of the student or person.' | translate }}" 
+        cmc-tooltip-duration="750"
+        cmc-required="false" 
+        cmc-tab-index=""
+        cmc-required-message="" 
+        cmc-readonly="false" 
+        cmc-min-length="1" 
+        cmc-max-length="25"
+        cmc-min=""
+        cmc-max=""
+        cmc-ref="vm.controlRefs.values['StudentEntityFirstName']"
+        cmc-change="vm.textBoxChange(payload)"
+        cmc-blur="vm.textBoxBlur(payload)"
+        cmc-place-holder=""&gt;
+    &lt;/cmc-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;div ng-show="true" class="form-group cmc-div-textbox"&gt;
+    &lt;cmc-input-text 
+        cmc-id="StudentEntityLastName" 
+        cmc-model="vm.models.studentEntity.LastName" 
+        cmc-class="" 
+        cmc-disabled="true" 
+        cmc-visible="true" 
+        cmc-label="{{ 'Last Name' | translate }}" 
+        cmc-input-type="'text'"
+        cmc-tooltip="{{ 'The last name of the student or person.' | translate }}" 
+        cmc-tooltip-duration="750"
+        cmc-required="false" 
+        cmc-tab-index=""
+        cmc-required-message="" 
+        cmc-readonly="false" 
+        cmc-min-length="1" 
+        cmc-max-length="25"
+        cmc-min=""
+        cmc-max=""
+        cmc-ref="vm.controlRefs.values['StudentEntityLastName']"
+        cmc-change="vm.textBoxChange(payload)"
+        cmc-blur="vm.textBoxBlur(payload)"
+        cmc-place-holder=""&gt;
+    &lt;/cmc-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;  #id9cf98cec-383b-5e16-57d3-c7e693be09f8 { border-bottom-left-radius: 0;border-bottom-right-radius: 0;border-bottom-width: 0;margin-bottom: 0;padding-bottom: 0;}&lt;/style&gt;&lt;div id="id9cf98cec-383b-5e16-57d3-c7e693be09f8" ng-show="true" class="panel panel-default"&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-12 col-md-12"&gt;&lt;div id="id477e4e8e-c6fc-7732-235c-15451a47a1ff" ng-show="true" class="form-group  cmc-div-htmlpage"&gt;
+    &lt;/br&gt;&lt;font size="4px"&gt;&lt;b&gt;If address below is incorrect, please make changes before submitting the application.&lt;/b&gt;&lt;/font&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;  #ida425f298-699a-b016-fb9f-026cd39dde83 { border-bottom-left-radius: 0;border-bottom-right-radius: 0;border-bottom-width: 0;margin-bottom: 0;padding-bottom: 0;}&lt;/style&gt;&lt;div id="ida425f298-699a-b016-fb9f-026cd39dde83" ng-show="true" class="panel panel-default"&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-6"&gt;&lt;div ng-show="true" class="form-group cmc-div-masked-textbox"&gt;
+    &lt;cmc-masked-input-text 
+        cmc-id="idc44d1cd5-461b-3e7c-fd5b-c4fe0c61c16e" 
+        cmc-model="vm.models.studentEntity.StreetAddress" 
+        cmc-class="" 
+        cmc-disabled="false" 
+        cmc-visible="true" 
+        cmc-label="{{ 'Street Address' | translate }}" 
+        cmc-tooltip="{{ 'The street address.  If the address line exceeds 40 characters, you must abbreviate some elements of the address. For student addresses, if an address has more than 40 characters, the additional characters in the address line will not be extracted to be sent to COD, but will be truncated.' | translate }}" 
+        cmc-tooltip-duration="750"
+        cmc-required="true" 
+        cmc-tab-index=""
+        cmc-required-message="" 
+        cmc-readonly="false" 
+        cmc-input-mask="''" 
+        cmc-ref="vm.controlRefs.values['idc44d1cd5-461b-3e7c-fd5b-c4fe0c61c16e']"
+        cmc-place-holder=""
+        cmc-pattern="^[^\s][0-9a-zA-ZÀ-ÿ\s\/.,-]{1,250}$"
+        cmc-change="vm.maskedTextBoxChange(payload)"
+        cmc-blur="vm.maskedTextBoxBlur(payload)"
+        cmc-pattern-message="The field is not valid.Please try removing some special characters"&gt;
+    &lt;/cmc-masked-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;  #idd2b27405-a923-53d9-42fd-1a72810a60d5 {  border-top-left-radius: 0;  border-top-right-radius: 0;  }  &lt;/style&gt;&lt;div id="idd2b27405-a923-53d9-42fd-1a72810a60d5" ng-show="true" class="panel panel-default"&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-3"&gt;&lt;div ng-show="true" class="form-group cmc-div-single-search"&gt;
+    &lt;cmc-single-search 
+        cmc-id="StudentEntityCountryId" 
+        cmc-model="vm.models.studentEntity.CountryId" 
+        cmc-class="" 
+        cmc-disabled="false" 
+        cmc-visible="true" 
+        cmc-label="{{ 'Country' | translate }}" 
+        cmc-tooltip="{{ 'The country of residence. If you are specifying a country, it defaults to the country for the campus. The country also determines the format of phone numbers. If you change the country, the phone numbers are automatically reformatted to the format for that country.' | translate }}" 
+        cmc-tooltip-duration="750"
+        cmc-required="true" 
+        cmc-place-holder=""
+        cmc-required-message="" 
+        cmc-query="|-OdataFeed-|/Student/Countries?$select=Code,Name,Id&amp;$filter=IsActive eq true&amp;CurrentCulture=|-CurrentCulture-|" 
+        cmc-query-watch="true" 
+        cmc-entity-value-field="Id" 
+        cmc-tab-index=""
+        cmc-entity-text-field="Name" 
+        cmc-list-value-field="Id" 
+        cmc-list-text-field="Name" 
+        cmc-ref="vm.controlRefs.values['StudentEntityCountryId']"
+        cmc-grid-columns='[{"field":"Name","title":"{{ &amp;apos;Name&amp;apos; | translate }}"}]'
+        cmc-on-initialized="vm.singleSelectSearchInitialized(payload)"
+        cmc-change="vm.singleSelectSearchChange(payload)"
+        cmc-error="vm.singleSelectSearchDataSourceError(payload)"
+        cmc-filter="contains"&gt;
+    &lt;/cmc-single-search&gt;
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-3"&gt;&lt;div ng-show="true" class="form-group cmc-div-dropdownlist" ng-init='vm.loadControlValueListModel("null", "")'&gt;
+    &lt;cmc-drop-down-list 
+        cmc-id="StudentEntityState" 
+        cmc-model="vm.models.studentEntity.State" 
+        cmc-class="" 
+        cmc-disabled="false" 
+        cmc-visible="true" 
+        cmc-label="{{ 'State' | translate }}" 
+        cmc-tooltip="{{ 'If within the United States, the name of the state.' | translate }}" 
+        cmc-tooltip-duration="750"
+        cmc-required="true" 
+        cmc-tab-index=""
+        cmc-required-message="" 
+        cmc-query="|-OdataFeed-|/Student/UsaStates?$select=Code,Name,Id&amp;$filter=IsActive eq true&amp;CurrentCulture=|-CurrentCulture-|" 
+        cmc-query-watch="true" 
+        cmc-options = '{
+            kendoOptions: {
+                existingData: null 
+                }
+            }'
+        cmc-server-filtering="false" 
+        cmc-data-value-field="Code" 
+        cmc-data-text-field="Name" 
+        cmc-sort-column="Code" 	
+        cmc-page-size="100"
+        cmc-ref="vm.controlRefs.values['StudentEntityState']"
+        cmc-placeholder="{{ '&lt;Select&gt;' | translate }}"
+        cmc-show-unselected-label="true"
+        cmc-template=""
+        cmc-readonly="false" 
+        cmc-default-value="string"
+        cmc-select='vm.dropDownListSelect(payload)'
+        cmc-change='vm.dropDownListChange(payload)'
+        cmc-initialized='vm.dropDownListInitialized(payload)'
+        cmc-data-bound='vm.dropDownListDataBound(payload)'
+        cmc-error='vm.dropDownListDataSourceError(payload)'
+        cmc-filter="contains"&gt;
+    &lt;/cmc-drop-down-list&gt;
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-3"&gt;&lt;div ng-show="true" class="form-group cmc-div-textbox"&gt;
+    &lt;cmc-input-text 
+        cmc-id="StudentEntityCity" 
+        cmc-model="vm.models.studentEntity.City" 
+        cmc-class="" 
+        cmc-disabled="false" 
+        cmc-visible="true" 
+        cmc-label="{{ 'City' | translate }}" 
+        cmc-input-type="'text'"
+        cmc-tooltip="{{ 'The name of the city.' | translate }}" 
+        cmc-tooltip-duration="750"
+        cmc-required="true" 
+        cmc-tab-index=""
+        cmc-required-message="" 
+        cmc-readonly="false" 
+        cmc-min-length="1" 
+        cmc-max-length="25"
+        cmc-min=""
+        cmc-max=""
+        cmc-ref="vm.controlRefs.values['StudentEntityCity']"
+        cmc-change="vm.textBoxChange(payload)"
+        cmc-blur="vm.textBoxBlur(payload)"
+        cmc-place-holder=""&gt;
+    &lt;/cmc-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-3"&gt;&lt;div ng-show="true" class="form-group cmc-div-textbox"&gt;
+    &lt;cmc-input-text 
+        cmc-id="StudentEntityPostalCode" 
+        cmc-model="vm.models.studentEntity.PostalCode" 
+        cmc-class="" 
+        cmc-disabled="false" 
+        cmc-visible="true" 
+        cmc-label="{{ 'ZIP Code/Postal Code' | translate }}" 
+        cmc-input-type="'text'"
+        cmc-tooltip="{{ 'The postal code for the address. If you are specifying an address, you must specify a value for City or State. If you specify a city or state or both, the list contains the valid zip codes.' | translate }}" 
+        cmc-tooltip-duration="750"
+        cmc-required="true" 
+        cmc-tab-index=""
+        cmc-required-message="" 
+        cmc-readonly="false" 
+        cmc-min-length="1" 
+        cmc-max-length="10"
+        cmc-min=""
+        cmc-max=""
+        cmc-ref="vm.controlRefs.values['StudentEntityPostalCode']"
+        cmc-change="vm.textBoxChange(payload)"
+        cmc-blur="vm.textBoxBlur(payload)"
+        cmc-place-holder=""&gt;
+    &lt;/cmc-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="id828d8726-7c82-2150-9595-54d7c8be1843" ng-show="true" class="panel panel-default"&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-5"&gt;&lt;div ng-show="true" class="form-group cmc-div-masked-textbox"&gt;
+    &lt;cmc-masked-input-text 
+        cmc-id="id0b684c42-432a-c2ed-0ecf-ca8da74b7fd5" 
+        cmc-model="vm.models.studentEntity.MobilePhoneNumber" 
+        cmc-class="" 
+        cmc-disabled="false" 
+        cmc-visible="true" 
+        cmc-label="{{ 'Phone Number' | translate }}" 
+        cmc-tooltip="{{ 'Specifies the mobile phone number. A mobile number must be specified if the student wants to receive SMS text messages. It must also be specified if you select the Subscribe to SMS check box.' | translate }}" 
+        cmc-tooltip-duration="750"
+        cmc-required="true" 
+        cmc-tab-index=""
+        cmc-required-message="" 
+        cmc-readonly="false" 
+        cmc-input-mask="''" 
+        cmc-ref="vm.controlRefs.values['id0b684c42-432a-c2ed-0ecf-ca8da74b7fd5']"
+        cmc-place-holder="{{ '(###)###-####' | translate }}"
+        cmc-pattern="^[(]{1}[0-9]{3}[)]{1}[0-9]{3}-[0-9]{4}$"
+        cmc-change="vm.maskedTextBoxChange(payload)"
+        cmc-blur="vm.maskedTextBoxBlur(payload)"
+        cmc-pattern-message="Please enter valid phone number in (###)###-#### format"&gt;
+    &lt;/cmc-masked-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;div ng-show="true" class="form-group cmc-div-masked-textbox"&gt;
+    &lt;cmc-masked-input-text 
+        cmc-id="id4961bf31-5f77-dca7-1e50-7410d118ab20" 
+        cmc-model="vm.models.studentEntity.OtherPhoneNumber" 
+        cmc-class="" 
+        cmc-disabled="false" 
+        cmc-visible="true" 
+        cmc-label="{{ 'Mobile Phone Number' | translate }}" 
+        cmc-tooltip="" 
+        cmc-tooltip-duration="750"
+        cmc-required="false" 
+        cmc-tab-index=""
+        cmc-required-message="" 
+        cmc-readonly="false" 
+        cmc-input-mask="''" 
+        cmc-ref="vm.controlRefs.values['id4961bf31-5f77-dca7-1e50-7410d118ab20']"
+        cmc-place-holder=""
+        cmc-pattern="^[(]{1}[0-9]{3}[)]{1}[0-9]{3}-[0-9]{4}$"
+        cmc-change="vm.maskedTextBoxChange(payload)"
+        cmc-blur="vm.maskedTextBoxBlur(payload)"
+        cmc-pattern-message="Please enter valid phone number in (###)###-#### format"&gt;
+    &lt;/cmc-masked-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-5"&gt;&lt;div ng-show="true" class="form-group cmc-div-textbox"&gt;
+    &lt;cmc-input-text 
+        cmc-id="StudentEntityEmailAddress" 
+        cmc-model="vm.models.studentEntity.EmailAddress" 
+        cmc-class="" 
+        cmc-disabled="true" 
+        cmc-visible="true" 
+        cmc-label="{{ 'Student Email Address' | translate }}" 
+        cmc-input-type="'text'"
+        cmc-tooltip="{{ 'The email address.' | translate }}" 
+        cmc-tooltip-duration="750"
+        cmc-required="false" 
+        cmc-tab-index=""
+        cmc-required-message="" 
+        cmc-readonly="false" 
+        cmc-min-length="1" 
+        cmc-max-length="50"
+        cmc-min=""
+        cmc-max=""
+        cmc-ref="vm.controlRefs.values['StudentEntityEmailAddress']"
+        cmc-change="vm.textBoxChange(payload)"
+        cmc-blur="vm.textBoxBlur(payload)"
+        cmc-place-holder=""&gt;
+    &lt;/cmc-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;div ng-show="true" class="form-group cmc-div-masked-textbox"&gt;
+    &lt;cmc-masked-input-text 
+        cmc-id="ida72751ac-8270-0ce9-f49e-41a3eff8e332" 
+        cmc-model="vm.models.studentEntity.OtherEmailAddress" 
+        cmc-class="" 
+        cmc-disabled="false" 
+        cmc-visible="true" 
+        cmc-label="{{ 'Other Email Address' | translate }}" 
+        cmc-tooltip="" 
+        cmc-tooltip-duration="750"
+        cmc-required="false" 
+        cmc-tab-index=""
+        cmc-required-message="" 
+        cmc-readonly="false" 
+        cmc-input-mask="''" 
+        cmc-ref="vm.controlRefs.values['ida72751ac-8270-0ce9-f49e-41a3eff8e332']"
+        cmc-place-holder=""
+        cmc-pattern="^([0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*@(([0-9a-zA-Z])+([-\w]*[0-9a-zA-Z])*\.)+[a-zA-Z]{2,9})$"
+        cmc-change="vm.maskedTextBoxChange(payload)"
+        cmc-blur="vm.maskedTextBoxBlur(payload)"
+        cmc-pattern-message="The email is not valid"&gt;
+    &lt;/cmc-masked-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-5"&gt;&lt;div ng-show="true" class="form-group cmc-div-masked-textbox"&gt;
+    &lt;cmc-masked-input-text 
+        cmc-id="id58816c48-3070-e20c-dd24-0d6b2843e18a" 
+        cmc-model="vm.models.studentEntity.CustomProperties['DIPPRINTNAME']" 
+        cmc-class="" 
+        cmc-disabled="false" 
+        cmc-visible="true" 
+        cmc-label="{{ 'Name to Appear on Diploma' | translate }}" 
+        cmc-tooltip="" 
+        cmc-tooltip-duration="750"
+        cmc-required="true" 
+        cmc-tab-index=""
+        cmc-required-message="" 
+        cmc-readonly="false" 
+        cmc-input-mask="''" 
+        cmc-ref="vm.controlRefs.values['id58816c48-3070-e20c-dd24-0d6b2843e18a']"
+        cmc-place-holder=""
+        cmc-pattern="^[^\s][a-zA-ZÀ-ÿ\s.,]{1,50}$"
+        cmc-change="vm.maskedTextBoxChange(payload)"
+        cmc-blur="vm.maskedTextBoxBlur(payload)"
+        cmc-pattern-message="The field is invalid.Please enter valid character"&gt;
+    &lt;/cmc-masked-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;  #idb42a3f59-6195-1346-c6e9-28262f40b710 { border-bottom-left-radius: 0;border-bottom-right-radius: 0;border-bottom-width: 0;margin-bottom: 0;padding-bottom: 0;}&lt;/style&gt;&lt;div id="idb42a3f59-6195-1346-c6e9-28262f40b710" ng-show="true" class="panel panel-default"&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-12 col-md-12"&gt;&lt;div id="ida661db4c-c714-11b6-b396-09a578f29a18" ng-show="true" class="form-group  cmc-div-htmlpage"&gt;
+    &lt;h3&gt;&lt;b&gt;DEGREE INFORMATION&lt;/b&gt;&lt;/h3&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="id561eaf52-04f5-5c52-06e8-7ca8b939a976" ng-show="true" class="panel panel-default"&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-12 col-md-8"&gt;&lt;div id="id9bda80dd-ba6c-6972-c27f-f9c7378a209f" ng-show="true" class="form-group  cmc-div-htmlpage"&gt;
+    
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-12 col-md-8"&gt;&lt;div ng-show="true" class="form-group  cmc-div-grid"&gt;
+    &lt;fb-grid 
+        k-scope-field="id663dce2e-243d-f38b-b1be-7fe745c719a0"
+        fb-id="id663dce2e-243d-f38b-b1be-7fe745c719a0" 
+        fb-model='vm.models.degreeInfoGrid'
+        fb-model-initial-data=''
+        fb-odata-query="|-OdataFeed-|/Student/StudentEnrollmentPeriods?$filter=Student/Id eq {{vm.models.studentEntity.Id}}  and (SchoolStatus/Name eq 'Pending Graduate' or SchoolStatus/Name eq 'Graduate') and (Id eq {{vm.models.validEnrollments}}) &amp;$select=Id,ProgramVersionName,GraduationDate&amp;CurrentCulture=|-CurrentCulture-|"
+        fb-page-size="20"
+        fb-server-paging="false"
+        fb-server-sorting="false"
+        fb-server-filtering="false"
+        fb-tab-index=""
+        fb-sortable="false"
+        fb-filterable="false"
+        fb-pageable="false"
+        fb-columns='{"columnData":[{"field":"ProgramVersionName","title":"{{ &amp;apos;Degree&amp;apos; | translate }}","dataType":"string","isRequired":false,"sortable":false,"canEdit":false,"filterable":false,"dropdownListStorage":{}},{"field":"GraduationDate","title":"{{ &amp;apos;Graduation Date&amp;apos; | translate }}","format":"{0:d}","dataType":"date","isRequired":false,"sortable":true,"canEdit":true,"filterable":true,"dropdownListStorage":{}}],"isEditable":false,"isAddable":false,"isDeletable":false,"typeOfEditor":"popup","addLocation":"bottom","schemaIdName":"Id"}'
+        fb-add-record-message="{{ 'Add New Record' | translate }}"
+        fb-no-records="true" 
+        fb-initialized='vm.gridInitialized(payload)'
+        fb-data-bound='vm.gridDataBound(payload)'
+        fb-error='vm.gridDataSourceError(payload)'&gt;
+    &lt;/fb-grid&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-12 col-md-8"&gt;&lt;div id="idd3940e6d-be0b-5a69-b7cc-bfb404ceec1a" ng-show="true" class="form-group  cmc-div-htmlpage"&gt;
+    &lt;h4&gt;&lt;b&gt;Note: $90 will be charged for each degree as Graduation Fee&lt;/b&gt;&lt;/h4&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;  #iddeaa547e-18bb-ee42-3552-8de609748049 { border-bottom-left-radius: 0;border-bottom-right-radius: 0;border-bottom-width: 0;margin-bottom: 0;padding-bottom: 0;}&lt;/style&gt;&lt;div id="iddeaa547e-18bb-ee42-3552-8de609748049" ng-show="true" class="panel panel-default"&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-12 col-md-12"&gt;&lt;div id="id8a84a545-3695-a41f-e8ad-12a956bce511" ng-show="true" class="form-group  cmc-div-htmlpage"&gt;
+    &lt;h3&gt;&lt;b&gt;CEREMONY AND APPROVAL INFORMATION&lt;/b&gt;&lt;/h3&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;  #id745fd89f-042a-2d14-ca23-cb746232f358 { border-bottom-left-radius: 0;border-bottom-right-radius: 0;border-bottom-width: 0;margin-bottom: 0;padding-bottom: 0;}&lt;/style&gt;&lt;div id="id745fd89f-042a-2d14-ca23-cb746232f358" ng-show="true" class="panel panel-default"&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-12 col-md-8"&gt;&lt;div id="ide85ab3ef-5bcf-fb7f-cc2c-4aff2b4ce579" ng-show="true" class="form-group  cmc-div-htmlpage"&gt;
+    
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-12 col-md-8"&gt;&lt;div ng-show="true" class="form-group cmc-div-dropdownlist" ng-init='vm.loadControlValueListModel("null", "")'&gt;
+    &lt;cmc-drop-down-list 
+        cmc-id="StudentEntitysdfcomm" 
+        cmc-model="vm.models.studentEntity.CustomProperties['sdfcomm']" 
+        cmc-class="" 
+        cmc-disabled="false" 
+        cmc-visible="true" 
+        cmc-label="{{ 'Are you attending Commencement Ceremony' | translate }}" 
+        cmc-tooltip="{{ 'Please indicate if you plan to attend the ceremony.' | translate }}" 
+        cmc-tooltip-duration="750"
+        cmc-required="true" 
+        cmc-tab-index=""
+        cmc-required-message="" 
+        cmc-query="|-OdataFeed-|/Student/SchoolDefinedFields/CampusNexus.GetFieldValueOptions(schoolDefinedFieldId=25)/?sdf&amp;CurrentCulture=|-CurrentCulture-|" 
+        cmc-query-watch="true" 
+        cmc-options = '{
+            kendoOptions: {
+                existingData: null 
+                }
+            }'
+        cmc-server-filtering="false" 
+        cmc-data-value-field="Name" 
+        cmc-data-text-field="Name" 
+        cmc-sort-column="Name" 	
+        cmc-page-size="100"
+        cmc-ref="vm.controlRefs.values['StudentEntitysdfcomm']"
+        cmc-placeholder="{{ '&lt;Select&gt;' | translate }}"
+        cmc-show-unselected-label="true"
+        cmc-template=""
+        cmc-readonly="false" 
+        cmc-default-value="string"
+        cmc-select='vm.dropDownListSelect(payload)'
+        cmc-change='vm.dropDownListChange(payload)'
+        cmc-initialized='vm.dropDownListInitialized(payload)'
+        cmc-data-bound='vm.dropDownListDataBound(payload)'
+        cmc-error='vm.dropDownListDataSourceError(payload)'
+        cmc-filter="contains"&gt;
+    &lt;/cmc-drop-down-list&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-12 col-md-8"&gt;&lt;div ng-show="true" class="form-group cmc-div-dropdownlist" ng-init='vm.loadControlValueListModel("null", "")'&gt;
+    &lt;cmc-drop-down-list 
+        cmc-id="StudentEntitycerdate" 
+        cmc-model="vm.models.studentEntity.CustomProperties['cerdate']" 
+        cmc-class="" 
+        cmc-disabled="false" 
+        cmc-visible="true" 
+        cmc-label="{{ 'Commencement Event Date' | translate }}" 
+        cmc-tooltip="{{ 'Commencement Event Date' | translate }}" 
+        cmc-tooltip-duration="750"
+        cmc-required="true" 
+        cmc-tab-index=""
+        cmc-required-message="" 
+        cmc-query="|-OdataFeed-|/Student/SchoolDefinedFields/CampusNexus.GetFieldValueOptions(schoolDefinedFieldId=26)/?sdf&amp;CurrentCulture=|-CurrentCulture-|" 
+        cmc-query-watch="true" 
+        cmc-options = '{
+            kendoOptions: {
+                existingData: null 
+                }
+            }'
+        cmc-server-filtering="false" 
+        cmc-data-value-field="Name" 
+        cmc-data-text-field="Name" 
+        cmc-sort-column="Name" 	
+        cmc-page-size="100"
+        cmc-ref="vm.controlRefs.values['StudentEntitycerdate']"
+        cmc-placeholder="{{ '&lt;Select&gt;' | translate }}"
+        cmc-show-unselected-label="true"
+        cmc-template=""
+        cmc-readonly="false" 
+        cmc-default-value="string"
+        cmc-select='vm.dropDownListSelect(payload)'
+        cmc-change='vm.dropDownListChange(payload)'
+        cmc-initialized='vm.dropDownListInitialized(payload)'
+        cmc-data-bound='vm.dropDownListDataBound(payload)'
+        cmc-error='vm.dropDownListDataSourceError(payload)'
+        cmc-filter="contains"&gt;
+    &lt;/cmc-drop-down-list&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="ida77074e4-5c72-855a-3c82-d78f73629627" ng-show="true" class="panel panel-default"&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-12 col-md-12"&gt;&lt;div id="idf9445523-b696-433a-c878-c30fdbc23f4a" ng-show="true" class="form-group  cmc-div-htmlpage"&gt;
+    &lt;br&gt;I understand the requirements for graduation as outlined in the  Post University Catalog. I assume the final responsibility for meeting all degree/graduation requirements.
+&lt;br&gt;&lt;br&gt;
+Entering my name below and submitting this form acts as my electronic signature approval. It gives Post University permission to:
+&lt;br&gt;
+&amp;emsp;&amp;emsp;&amp;emsp; &amp;nbsp;&lt;ul&gt;
+  &lt;li&gt;Approve and process this graduation application&lt;/li&gt;
+  &lt;li&gt;Charge my student account for graduation fee&lt;/li&gt;
+  &lt;li&gt;Use my likeness and/or quote from my comments, without charge, for promotional purposes in college publications, advertising, video, web pages, email, social media, or in other formats.&lt;/li&gt;
+&lt;/ul&gt;&lt;br&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="id8a1a4589-2e4b-1dd1-13cf-f56ff9175189" ng-show="true" class="panel panel-default"&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;div ng-show="true" class="form-group cmc-div-textbox"&gt;
+    &lt;cmc-input-text 
+        cmc-id="id23866601-81a6-c090-9963-9e76c10f0fb3" 
+        cmc-model="vm.models.esign" 
+        cmc-class="" 
+        cmc-disabled="false" 
+        cmc-visible="true" 
+        cmc-label="{{ 'E-Sign' | translate }}" 
+        cmc-input-type="'text'"
+        cmc-tooltip="" 
+        cmc-tooltip-duration="750"
+        cmc-required="true" 
+        cmc-tab-index=""
+        cmc-required-message="" 
+        cmc-readonly="false" 
+        cmc-min-length="1" 
+        cmc-max-length="50"
+        cmc-min=""
+        cmc-max=""
+        cmc-ref="vm.controlRefs.values['id23866601-81a6-c090-9963-9e76c10f0fb3']"
+        cmc-change="vm.textBoxChange(payload)"
+        cmc-blur="vm.textBoxBlur(payload)"
+        cmc-place-holder=""&gt;
+    &lt;/cmc-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;div ng-show="true" class="form-group cmc-div-textbox"&gt;
+    &lt;cmc-input-text 
+        cmc-id="id33b84a84-95bc-5f64-37f7-3923aa3fee10" 
+        cmc-model="vm.models.currentDate" 
+        cmc-class="" 
+        cmc-disabled="true" 
+        cmc-visible="true" 
+        cmc-label="{{ 'Date' | translate }}" 
+        cmc-input-type="'text'"
+        cmc-tooltip="" 
+        cmc-tooltip-duration="750"
+        cmc-required="false" 
+        cmc-tab-index=""
+        cmc-required-message="" 
+        cmc-readonly="false" 
+        cmc-min-length="1" 
+        cmc-max-length="50"
+        cmc-min=""
+        cmc-max=""
+        cmc-ref="vm.controlRefs.values['id33b84a84-95bc-5f64-37f7-3923aa3fee10']"
+        cmc-change="vm.textBoxChange(payload)"
+        cmc-blur="vm.textBoxBlur(payload)"
+        cmc-place-holder=""&gt;
+    &lt;/cmc-input-text&gt;
+&lt;/div&gt;&lt;/div&gt;
+	&lt;div class="col-xs-12 col-sm-6 col-md-4"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</Html>
+      <IsEndState>false</IsEndState>
+      <IncludeInViewSummary>true</IncludeInViewSummary>
+      <CssClass></CssClass>
+      <FormId>id5a296d45-95f5-0123-cbe9-680889e4c7af</FormId>
+      <OriginalState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</OriginalState>
+      <SecureState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</SecureState>
+      <EntityState>0</EntityState>
+    </Forms>
+    <Forms>
+      <Id>0</Id>
+      <Name>GraduationApplication_EndForm</Name>
+      <Title></Title>
+      <Description></Description>
+      <Json>{"name":"GraduationApplication_EndForm","title":"","description":"","id":0,"formsections":[{"columns":[[{"ControlType":"HTML","ModuleName":null,"EntityName":null,"EntityNavigationalName":null,"EntityDisplayName":null,"Name":null,"DisplayName":"HTML","FullName":"..","ParentEntityName":null,"IsNavigation":false,"NavigationProperties":[],"ControlProperties":[{"Name":"ControlType","DisplayName":"Control Type","Value":"HTML","IsEditable":false,"IsVisible":true,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Uuid","DisplayName":"Uuid","Value":"a17c6b44-fca2-b577-d4bf-6512f23681b4","IsEditable":false,"IsVisible":false,"EditType":"NotEditable","EditDropdownListValues":null,"EditQuery":null},{"Name":"Class","DisplayName":"Class","Value":"","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"HTML","DisplayName":"HTML","Value":"&lt;h2&gt;{{vm.models.endMessage}}&lt;/h2&gt;","IsEditable":true,"IsVisible":true,"EditType":"TextArea","EditDropdownListValues":null,"EditQuery":null},{"Name":"Id","DisplayName":"Id","Value":"id0372004b-c4bd-1c6b-795a-737dcbee28ec","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null},{"Name":"Visible","DisplayName":"Visible","Value":"true","IsEditable":true,"IsVisible":true,"EditType":"Text","EditDropdownListValues":null,"EditQuery":null}],"CustomProperty":false,"CustomPropertyKey":null,"ClrType":null,"IsEnabled":true,"SublayoutTypes":"P,R","NumberOfColumnsSpanned":0,"SublayoutTypesArray":["P","R"],"index":11,"uuid":"a17c6b44-fca2-b577-d4bf-6512f23681b4"}]],"uuid":"9501d618-b3b4-020a-4155-1acfac066cbd","formSectionId":"id16bba1f7-8de9-8c6e-8e04-282a40269087","mergeWithNext":false,"mergeWithPrevious":false,"isVisible":"true","title":"","description":"","cssClass":"","spanDefinitions":[{"NumberOfColumnsSpanned":12,"CanIncreaseSpan":false,"CanDecreaseSpan":true}]}],"isEndState":true,"includeInViewSummary":true,"cssClass":"","formId":"id3c123154-d3e1-dd55-f0a5-b03e18c6c877"}</Json>
+      <Html>&lt;div id="id16bba1f7-8de9-8c6e-8e04-282a40269087" ng-show="true" class="panel panel-default"&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-xs-12 col-sm-12 col-md-12"&gt;&lt;div id="id0372004b-c4bd-1c6b-795a-737dcbee28ec" ng-show="true" class="form-group  cmc-div-htmlpage"&gt;
+    &lt;h2&gt;{{vm.models.endMessage}}&lt;/h2&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</Html>
+      <IsEndState>true</IsEndState>
+      <IncludeInViewSummary>true</IncludeInViewSummary>
+      <CssClass></CssClass>
+      <FormId>id3c123154-d3e1-dd55-f0a5-b03e18c6c877</FormId>
+      <OriginalState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</OriginalState>
+      <SecureState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</SecureState>
+      <EntityState>0</EntityState>
+    </Forms>
+    <WorkflowDefinition>
+      <Name>GraduationApplication_Seq</Name>
+      <EntityType>Cmc.Core.Eventing.VoidEntity, Cmc.Core</EntityType>
+      <EventType>Cmc.Core.Eventing.ConstructedEvent, Cmc.Core</EventType>
+      <DateCreated>2019-12-16T04:11:15.08</DateCreated>
+      <DateModified>2019-12-16T04:11:15.08</DateModified>
+      <Id>0</Id>
+      <OriginalState>H4sIAAAAAAAEALXSwYrCQAwA0F+RudtUvZVaWNSDqOvBZfEaaqqBTkZm4tb69dpZ2Fs9LPQyISR5hDD5h/fY7qsNtd9Y32hfBfUsZ5T2q73S6G5rCXNzUb1mAKG8kMWQWC69C67SpHQWpmk6g0kKB/KMNT9Q2QlEOJhfIeM/o2mapJklzp+7wQkcd9tDZMcsQVFKMkXes04sFOtTDl3MY8uIM+F6btTfyEARS72z/egnWhqAXYmyxnwI/IdEB7KXqLTw9HqHuHan79yJK/4vD+8/bvEEgGNZbtkCAAA=</OriginalState>
+      <SecureState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</SecureState>
+      <EntityState>0</EntityState>
+    </WorkflowDefinition>
+    <EnabledWorkflowDefinitionVersion>
+      <WorkflowDefinitionId>0</WorkflowDefinitionId>
+      <Xaml>&lt;Activity mc:Ignorable="sap sap2010 sads" x:Class="GraduationApplication_Seq"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+ xmlns:cce="clr-namespace:Cmc.Core.Eventing;assembly=Cmc.Core"
+ xmlns:ccwa="clr-namespace:Cmc.Core.Workflow.Activities;assembly=Cmc.Core.Workflow"
+ xmlns:ccwae="clr-namespace:Cmc.Core.Workflow.Activities.EntityModel;assembly=Cmc.Core.Workflow"
+ xmlns:cnce="clr-namespace:Cmc.Nexus.Common.Entities;assembly=Cmc.Nexus.Common.Contracts"
+ xmlns:cnce1="clr-namespace:Cmc.Nexus.Crm.Entities;assembly=Cmc.Nexus.Crm.Contracts"
+ xmlns:cncs="clr-namespace:Cmc.Nexus.Common.Services;assembly=Cmc.Nexus.Common.Contracts"
+ xmlns:cncw="clr-namespace:Cmc.Nexus.Common.Workflow;assembly=Cmc.Nexus.Common.Workflow"
+ xmlns:cncw1="clr-namespace:Cmc.Nexus.Crm.Workflow;assembly=Cmc.Nexus.Crm.Workflow"
+ xmlns:cnf="clr-namespace:Cmc.Nexus.FormsBuilder;assembly=Cmc.Nexus.FormsBuilder.Contracts"
+ xmlns:cnfe="clr-namespace:Cmc.Nexus.FormsBuilder.Entities;assembly=Cmc.Nexus.FormsBuilder.Contracts"
+ xmlns:cnfw="clr-namespace:Cmc.Nexus.FormsBuilder.Workflow;assembly=Cmc.Nexus.FormsBuilder.Workflow"
+ xmlns:cnse="clr-namespace:Cmc.Nexus.StudentAccounts.Entities;assembly=Cmc.Nexus.StudentAccounts.Contracts"
+ xmlns:cnsw="clr-namespace:Cmc.Nexus.StudentAccounts.Workflow;assembly=Cmc.Nexus.StudentAccounts.Workflow"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities"
+ xmlns:s="clr-namespace:System;assembly=mscorlib"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+ xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;
+  &lt;x:Members&gt;
+    &lt;x:Property Name="formInstance" Type="InOutArgument(cnf:FormInstance)" /&gt;
+    &lt;x:Property Name="entity" Type="InOutArgument(cce:VoidEntity)" /&gt;
+    &lt;x:Property Name="event" Type="InOutArgument(cce:ConstructedEvent)" /&gt;
+    &lt;x:Property Name="studentEntity" Type="InOutArgument(cnce:StudentEntity)" /&gt;
+    &lt;x:Property Name="currentDate" Type="InOutArgument(x:String)" /&gt;
+    &lt;x:Property Name="degreeInfoGrid" Type="InOutArgument(cnfe:SerializableDynamicObject[])" /&gt;
+    &lt;x:Property Name="esign" Type="InOutArgument(x:String)" /&gt;
+    &lt;x:Property Name="endMessage" Type="InOutArgument(x:String)" /&gt;
+    &lt;x:Property Name="validEnrollments" Type="InOutArgument(x:String)" /&gt;
+    &lt;x:Property Name="_degreeInfoGrid_ProgramVersionName" Type="InOutArgument(x:String)" /&gt;
+    &lt;x:Property Name="_degreeInfoGrid_GraduationDate" Type="InOutArgument(x:String)" /&gt;
+  &lt;/x:Members&gt;
+  &lt;mva:VisualBasic.Settings&gt;
+    &lt;x:Null /&gt;
+  &lt;/mva:VisualBasic.Settings&gt;
+  &lt;sap2010:WorkflowViewState.IdRef&gt;GraduationApplication_Seq_1&lt;/sap2010:WorkflowViewState.IdRef&gt;
+  &lt;TextExpression.NamespacesForImplementation&gt;
+    &lt;sco:Collection x:TypeArguments="x:String"&gt;
+      &lt;x:String&gt;System.Activities&lt;/x:String&gt;
+      &lt;x:String&gt;System.Activities.Statements&lt;/x:String&gt;
+      &lt;x:String&gt;System.Activities.Expressions&lt;/x:String&gt;
+      &lt;x:String&gt;System.Activities.Validation&lt;/x:String&gt;
+      &lt;x:String&gt;System.Activities.XamlIntegration&lt;/x:String&gt;
+      &lt;x:String&gt;Cmc.Nexus.FormsBuilder.Workflow&lt;/x:String&gt;
+      &lt;x:String&gt;Microsoft.VisualBasic.Activities&lt;/x:String&gt;
+      &lt;x:String&gt;Newtonsoft.Json&lt;/x:String&gt;
+      &lt;x:String&gt;System&lt;/x:String&gt;
+      &lt;x:String&gt;System.Windows.Markup&lt;/x:String&gt;
+      &lt;x:String&gt;Cmc.Core.Eventing&lt;/x:String&gt;
+      &lt;x:String&gt;Cmc.Nexus.FormsBuilder&lt;/x:String&gt;
+      &lt;x:String&gt;Cmc.Nexus.FormsBuilder.Entities&lt;/x:String&gt;
+      &lt;x:String&gt;Cmc.Nexus.Common.Entities&lt;/x:String&gt;
+      &lt;x:String&gt;Cmc.Nexus.Crm.Entities&lt;/x:String&gt;
+      &lt;x:String&gt;Cmc.Core.EntityModel&lt;/x:String&gt;
+      &lt;x:String&gt;Cmc.Core.ComponentModel&lt;/x:String&gt;
+      &lt;x:String&gt;System.Collections.Generic&lt;/x:String&gt;
+      &lt;x:String&gt;Cmc.Nexus.Common.Services&lt;/x:String&gt;
+      &lt;x:String&gt;Microsoft.VisualBasic.CompilerServices&lt;/x:String&gt;
+      &lt;x:String&gt;System.Collections.ObjectModel&lt;/x:String&gt;
+      &lt;x:String&gt;System.Linq&lt;/x:String&gt;
+      &lt;x:String&gt;System.Collections&lt;/x:String&gt;
+      &lt;x:String&gt;Cmc.Nexus.StudentAccounts.Entities&lt;/x:String&gt;
+    &lt;/sco:Collection&gt;
+  &lt;/TextExpression.NamespacesForImplementation&gt;
+  &lt;TextExpression.ReferencesForImplementation&gt;
+    &lt;sco:Collection x:TypeArguments="AssemblyReference"&gt;
+      &lt;AssemblyReference&gt;System.Activities&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;Cmc.Nexus.FormsBuilder.Workflow&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;Newtonsoft.Json&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;mscorlib&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;PresentationCore&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;WindowsBase&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;PresentationFramework&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;System.Xaml&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;Cmc.Core&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;Cmc.Nexus.FormsBuilder.Contracts&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;Cmc.Nexus.Common.Contracts&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;Cmc.Nexus.Crm.Contracts&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;System&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;System.Core&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;System.ServiceModel&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;Microsoft.VisualBasic&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;Cmc.Nexus.StudentAccounts.Contracts&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;System.Runtime.WindowsRuntime&lt;/AssemblyReference&gt;
+      &lt;AssemblyReference&gt;System.ComponentModel.Composition&lt;/AssemblyReference&gt;
+    &lt;/sco:Collection&gt;
+  &lt;/TextExpression.ReferencesForImplementation&gt;
+  &lt;StateMachine sap2010:WorkflowViewState.IdRef="StateMachine_1"&gt;
+    &lt;StateMachine.InitialState&gt;
+      &lt;State x:Name="__ReferenceID1" DisplayName="GraduationApplication" sap2010:WorkflowViewState.IdRef="State_2"&gt;
+        &lt;State.Entry&gt;
+          &lt;Sequence DisplayName="PreLoad &amp;amp; PreValidation" sap2010:WorkflowViewState.IdRef="Sequence_5"&gt;
+            &lt;Sequence DisplayName="PreLoad" sap2010:WorkflowViewState.IdRef="Sequence_1"&gt;
+              &lt;Sequence.Variables&gt;
+                &lt;Variable x:TypeArguments="s:Guid" Name="workFlowId" /&gt;
+              &lt;/Sequence.Variables&gt;
+              &lt;ccwa:GetWorkflowInstanceId sap2010:WorkflowViewState.IdRef="GetWorkflowInstanceId_1" Result="[workFlowId]" /&gt;
+              &lt;Assign sap2010:WorkflowViewState.IdRef="Assign_1"&gt;
+                &lt;Assign.To&gt;
+                  &lt;OutArgument x:TypeArguments="x:String"&gt;[logPrefix]&lt;/OutArgument&gt;
+                &lt;/Assign.To&gt;
+                &lt;Assign.Value&gt;
+                  &lt;InArgument x:TypeArguments="x:String"&gt;["Graduation Application-"+workFlowId.ToString+"-"]&lt;/InArgument&gt;
+                &lt;/Assign.Value&gt;
+              &lt;/Assign&gt;
+              &lt;ccwa:LogLine sap2010:WorkflowViewState.IdRef="LogLine_1" Text="[logPrefix+&amp;quot;WF Execution Started&amp;quot;]" /&gt;
+              &lt;cnfw:LookupUser sap2010:WorkflowViewState.IdRef="LookupUser_1" UserId="[studentId]" UserName="[formInstance.UserName]" UserType="[UserType.Student]" ValidationMessages="[formInstance.ValidationMessages]" /&gt;
+              &lt;ccwae:GetEntity x:TypeArguments="cnce:StudentEntity" EntityId="[studentId]" sap2010:WorkflowViewState.IdRef="GetEntity`1_1" Result="[studentEntity]" /&gt;
+              &lt;Assign sap2010:WorkflowViewState.IdRef="Assign_2"&gt;
+                &lt;Assign.To&gt;
+                  &lt;OutArgument x:TypeArguments="x:String"&gt;[currentDate]&lt;/OutArgument&gt;
+                &lt;/Assign.To&gt;
+                &lt;Assign.Value&gt;
+                  &lt;InArgument x:TypeArguments="x:String"&gt;[Date.Today.ToShortDateString]&lt;/InArgument&gt;
+                &lt;/Assign.Value&gt;
+              &lt;/Assign&gt;
+            &lt;/Sequence&gt;
+            &lt;Sequence DisplayName="PreValidations" sap2010:WorkflowViewState.IdRef="Sequence_4"&gt;
+              &lt;Sequence.Variables&gt;
+                &lt;Variable x:TypeArguments="cncs:ReferenceItem" Name="docType" /&gt;
+                &lt;Variable x:TypeArguments="cncs:ReferenceItem" Name="docReqStatus" /&gt;
+              &lt;/Sequence.Variables&gt;
+              &lt;cncw:LookupReferenceItem ValidationMessages="{x:Null}" sap2010:WorkflowViewState.IdRef="LookupReferenceItem_1" ItemId="263" ReferenceItem="[docType]" ReferenceItemType="Cmc.Nexus.Models.Crm.DocumentType" /&gt;
+              &lt;cncw:LookupReferenceItem ValidationMessages="{x:Null}" sap2010:WorkflowViewState.IdRef="LookupReferenceItem_2" ItemId="5" ReferenceItem="[docReqStatus]" ReferenceItemType="Cmc.Nexus.Models.Crm.DocumentStatus" /&gt;
+              &lt;cncw:LookupReferenceItem ValidationMessages="{x:Null}" sap2010:WorkflowViewState.IdRef="LookupReferenceItem_3" ItemId="15" ReferenceItem="[docCompleteStatus]" ReferenceItemType="Cmc.Nexus.Models.Crm.DocumentStatus" /&gt;
+              &lt;cncw1:LookupStudentDocuments ValidationMessages="{x:Null}" DocumentTypeId="[docType.Id]" Documents="[docList]" sap2010:WorkflowViewState.IdRef="LookupStudentDocuments_1" StudentId="[studentId]" /&gt;
+              &lt;Assign sap2010:WorkflowViewState.IdRef="Assign_7"&gt;
+                &lt;Assign.To&gt;
+                  &lt;OutArgument x:TypeArguments="x:String"&gt;[validEnrollments]&lt;/OutArgument&gt;
+                &lt;/Assign.To&gt;
+                &lt;Assign.Value&gt;
+                  &lt;InArgument x:TypeArguments="x:String"&gt;0&lt;/InArgument&gt;
+                &lt;/Assign.Value&gt;
+              &lt;/Assign&gt;
+              &lt;Assign sap2010:WorkflowViewState.IdRef="Assign_3"&gt;
+                &lt;Assign.To&gt;
+                  &lt;OutArgument x:TypeArguments="cce:ValidationMessageCollection"&gt;[validationMessages]&lt;/OutArgument&gt;
+                &lt;/Assign.To&gt;
+                &lt;Assign.Value&gt;
+                  &lt;InArgument x:TypeArguments="cce:ValidationMessageCollection"&gt;[formInstance.ValidationMessages]&lt;/InArgument&gt;
+                &lt;/Assign.Value&gt;
+              &lt;/Assign&gt;
+              &lt;If Condition="[docList.Length&amp;gt;0]" sap2010:WorkflowViewState.IdRef="If_4"&gt;
+                &lt;If.Then&gt;
+                  &lt;Sequence sap2010:WorkflowViewState.IdRef="Sequence_27"&gt;
+                    &lt;Sequence DisplayName="Create Validation Errors" sap2010:WorkflowViewState.IdRef="Sequence_3"&gt;
+                      &lt;Sequence.Variables&gt;
+                        &lt;Variable x:TypeArguments="x:Int32" Default="0" Name="submittedDocCount" /&gt;
+                      &lt;/Sequence.Variables&gt;
+                      &lt;ForEach x:TypeArguments="cnce1:DocumentEntity" DisplayName="ForEach&amp;lt;DocumentEntity&amp;gt;" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[docList]"&gt;
+                        &lt;ActivityAction x:TypeArguments="cnce1:DocumentEntity"&gt;
+                          &lt;ActivityAction.Argument&gt;
+                            &lt;DelegateInArgument x:TypeArguments="cnce1:DocumentEntity" Name="item" /&gt;
+                          &lt;/ActivityAction.Argument&gt;
+                          &lt;Sequence sap2010:WorkflowViewState.IdRef="Sequence_26"&gt;
+                            &lt;If Condition="[item.DocumentStatusId=docReqStatus.Id AndAlso item.ReceivedDate.ToString=&amp;quot;&amp;quot;]" sap2010:WorkflowViewState.IdRef="If_2"&gt;
+                              &lt;If.Then&gt;
+                                &lt;Sequence sap2010:WorkflowViewState.IdRef="Sequence_12"&gt;
+                                  &lt;AddToCollection x:TypeArguments="cnce1:DocumentEntity" Collection="[validDocuments]" DisplayName="AddToCollection&amp;lt;DocumentEntity&amp;gt;" sap2010:WorkflowViewState.IdRef="AddToCollection`1_1" Item="[item]" /&gt;
+                                  &lt;Assign sap2010:WorkflowViewState.IdRef="Assign_8"&gt;
+                                    &lt;Assign.To&gt;
+                                      &lt;OutArgument x:TypeArguments="x:String"&gt;[validEnrollments]&lt;/OutArgument&gt;
+                                    &lt;/Assign.To&gt;
+                                    &lt;Assign.Value&gt;
+                                      &lt;InArgument x:TypeArguments="x:String"&gt;[validEnrollments+" or Id eq "+item.StudentEnrollmentPeriodId.ToString]&lt;/InArgument&gt;
+                                    &lt;/Assign.Value&gt;
+                                  &lt;/Assign&gt;
+                                &lt;/Sequence&gt;
+                              &lt;/If.Then&gt;
+                              &lt;If.Else&gt;
+                                &lt;Sequence sap2010:WorkflowViewState.IdRef="Sequence_2"&gt;
+                                  &lt;If Condition="[item.DocumentStatusId=docCompleteStatus.Id]" sap2010:WorkflowViewState.IdRef="If_1"&gt;
+                                    &lt;If.Then&gt;
+                                      &lt;Assign sap2010:WorkflowViewState.IdRef="Assign_14"&gt;
+                                        &lt;Assign.To&gt;
+                                          &lt;OutArgument x:TypeArguments="x:Int32"&gt;[submittedDocCount]&lt;/OutArgument&gt;
+                                        &lt;/Assign.To&gt;
+                                        &lt;Assign.Value&gt;
+                                          &lt;InArgument x:TypeArguments="x:Int32"&gt;[submittedDocCount+1]&lt;/InArgument&gt;
+                                        &lt;/Assign.Value&gt;
+                                      &lt;/Assign&gt;
+                                    &lt;/If.Then&gt;
+                                  &lt;/If&gt;
+                                &lt;/Sequence&gt;
+                              &lt;/If.Else&gt;
+                            &lt;/If&gt;
+                          &lt;/Sequence&gt;
+                        &lt;/ActivityAction&gt;
+                      &lt;/ForEach&gt;
+                      &lt;If Condition="[validDocuments.count&amp;gt;0]" sap2010:WorkflowViewState.IdRef="If_3"&gt;
+                        &lt;If.Else&gt;
+                          &lt;Sequence sap2010:WorkflowViewState.IdRef="Sequence_20"&gt;
+                            &lt;If Condition="[submittedDocCount&amp;gt;0]" sap2010:WorkflowViewState.IdRef="If_6"&gt;
+                              &lt;If.Then&gt;
+                                &lt;ccwa:CreateValidationItem sap2010:WorkflowViewState.IdRef="CreateValidationItem_5" Message="No Graduation Application Document is requested.You may already submitted the required documents.Please contact 'graduationapplication@post.edu' if you want to change any details further." Messages="[validationMessages]" /&gt;
+                              &lt;/If.Then&gt;
+                              &lt;If.Else&gt;
+                                &lt;ccwa:CreateValidationItem sap2010:WorkflowViewState.IdRef="CreateValidationItem_6" Message="No Graduation Application Document is requested!!!" Messages="[validationMessages]" /&gt;
+                              &lt;/If.Else&gt;
+                            &lt;/If&gt;
+                          &lt;/Sequence&gt;
+                        &lt;/If.Else&gt;
+                      &lt;/If&gt;
+                    &lt;/Sequence&gt;
+                  &lt;/Sequence&gt;
+                &lt;/If.Then&gt;
+                &lt;If.Else&gt;
+                  &lt;ccwa:CreateValidationItem sap2010:WorkflowViewState.IdRef="CreateValidationItem_3" Message="No Graduation Application Document is requested!!!" Messages="[validationMessages]" /&gt;
+                &lt;/If.Else&gt;
+              &lt;/If&gt;
+              &lt;ccwa:LogLine sap2010:WorkflowViewState.IdRef="LogLine_7" Text="[logPrefix+&amp;quot;Valid Enrollment Ids-&amp;quot;+validEnrollments]" /&gt;
+            &lt;/Sequence&gt;
+          &lt;/Sequence&gt;
+        &lt;/State.Entry&gt;
+        &lt;State.Transitions&gt;
+          &lt;Transition DisplayName="Submit" sap2010:WorkflowViewState.IdRef="Transition_1"&gt;
+            &lt;Transition.Trigger&gt;
+              &lt;Sequence sap2010:WorkflowViewState.IdRef="Sequence_7"&gt;
+                &lt;cnfw:WaitForFormBookmark DisplayName="Submit Application" DisplayOrder="0" sap2010:WorkflowViewState.IdRef="WaitForFormBookmark_1" TransitionType="Default" /&gt;
+                &lt;If Condition="[degreeInfoGrid.Count&amp;gt;0]" sap2010:WorkflowViewState.IdRef="If_10"&gt;
+                  &lt;If.Else&gt;
+                    &lt;ccwa:CreateValidationItem sap2010:WorkflowViewState.IdRef="CreateValidationItem_9" Message="Degree Information is not found.Please contact 'graduationapplication@post.edu'." Messages="[validationMessages]" /&gt;
+                  &lt;/If.Else&gt;
+                &lt;/If&gt;
+                &lt;If Condition="[validationMessages.HasErrors]" sap2010:WorkflowViewState.IdRef="If_5"&gt;
+                  &lt;If.Then&gt;
+                    &lt;Sequence sap2010:WorkflowViewState.IdRef="Sequence_6"&gt;
+                      &lt;InvokeMethod sap2010:WorkflowViewState.IdRef="InvokeMethod_1" MethodName="Add"&gt;
+                        &lt;InvokeMethod.TargetObject&gt;
+                          &lt;InArgument x:TypeArguments="cce:ValidationMessageCollection"&gt;[formInstance.ValidationMessages]&lt;/InArgument&gt;
+                        &lt;/InvokeMethod.TargetObject&gt;
+                        &lt;InArgument x:TypeArguments="cce:ValidationMessage"&gt;[validationMessages(0)]&lt;/InArgument&gt;
+                      &lt;/InvokeMethod&gt;
+                      &lt;ccwa:CreateValidationItem sap2010:WorkflowViewState.IdRef="CreateValidationItem_4" Message="[validationMessages(0).ToString]" Messages="[validationMessages]" /&gt;
+                    &lt;/Sequence&gt;
+                  &lt;/If.Then&gt;
+                &lt;/If&gt;
+              &lt;/Sequence&gt;
+            &lt;/Transition.Trigger&gt;
+            &lt;Transition.To&gt;
+              &lt;State x:Name="__ReferenceID0" DisplayName="End" sap2010:WorkflowViewState.IdRef="State_1" IsFinal="True"&gt;
+                &lt;State.Entry&gt;
+                  &lt;cnfw:WaitForFormBookmark DisplayOrder="0" sap2010:WorkflowViewState.IdRef="WaitForFormBookmark_2" TransitionType="Default" /&gt;
+                &lt;/State.Entry&gt;
+              &lt;/State&gt;
+            &lt;/Transition.To&gt;
+            &lt;Transition.Action&gt;
+              &lt;Sequence sap2010:WorkflowViewState.IdRef="Sequence_10"&gt;
+                &lt;TryCatch sap2010:WorkflowViewState.IdRef="TryCatch_1"&gt;
+                  &lt;TryCatch.Try&gt;
+                    &lt;Sequence sap2010:WorkflowViewState.IdRef="Sequence_19"&gt;
+                      &lt;Sequence DisplayName="Save Student Details and Add Graduation Fee and Update  Document Status" sap2010:WorkflowViewState.IdRef="Sequence_8"&gt;
+                        &lt;Sequence DisplayName="Save Student Details" sap2010:WorkflowViewState.IdRef="Sequence_13"&gt;
+                          &lt;Assign sap2010:WorkflowViewState.IdRef="Assign_4"&gt;
+                            &lt;Assign.To&gt;
+                              &lt;OutArgument x:TypeArguments="cnce:StudentAddressAssociation"&gt;[studentEntity.StudentAddressAssociation]&lt;/OutArgument&gt;
+                            &lt;/Assign.To&gt;
+                            &lt;Assign.Value&gt;
+                              &lt;InArgument x:TypeArguments="cnce:StudentAddressAssociation"&gt;[StudentAddressAssociation.IgnoreInStudentAssociation]&lt;/InArgument&gt;
+                            &lt;/Assign.Value&gt;
+                          &lt;/Assign&gt;
+                          &lt;ccwae:SaveEntity x:TypeArguments="cnce:StudentEntity" Entity="[studentEntity]" sap2010:WorkflowViewState.IdRef="SaveEntity`1_1" ValidationMessages="[validationMessages]" /&gt;
+                          &lt;ccwa:LogLine sap2010:WorkflowViewState.IdRef="LogLine_4" Text="[logPrefix+&amp;quot;Submit-Saved Student Details&amp;quot;]" /&gt;
+                        &lt;/Sequence&gt;
+                      &lt;/Sequence&gt;
+                      &lt;Sequence DisplayName="Add Graduation Fee for each enrollment in Ledger Card" sap2010:WorkflowViewState.IdRef="Sequence_14"&gt;
+                        &lt;ForEach x:TypeArguments="cnfe:SerializableDynamicObject" DisplayName="ForEach&amp;lt;SerializableDynamicObject&amp;gt;" sap2010:WorkflowViewState.IdRef="ForEach`1_4" Values="[degreeInfoGrid]"&gt;
+                          &lt;ActivityAction x:TypeArguments="cnfe:SerializableDynamicObject"&gt;
+                            &lt;ActivityAction.Argument&gt;
+                              &lt;DelegateInArgument x:TypeArguments="cnfe:SerializableDynamicObject" Name="item" /&gt;
+                            &lt;/ActivityAction.Argument&gt;
+                            &lt;Sequence sap2010:WorkflowViewState.IdRef="Sequence_22"&gt;
+                              &lt;cnsw:CreateCharge ProspectId="{x:Null}" Reference="{x:Null}" TermId="{x:Null}" Amount="[90]" CampusId="[studentEntity.CampusId]" ChargeCode="GRAD FEE" ChargeTransaction="[chargeTransaction]" Description="Graduation Fee" sap2010:WorkflowViewState.IdRef="CreateCharge_2" PostDate="[Date.Today]" StudentEnrollmentPeriodId="[Convert.ToInt32(item.DataDictionary(&amp;quot;Id&amp;quot;).ToString())]" StudentId="[studentId]" TransactionDate="[Date.Today]" TransactionType="I" /&gt;
+                              &lt;cnsw:SaveCharge ChargeTransaction="[chargeTransaction]" sap2010:WorkflowViewState.IdRef="SaveCharge_2" ValidationMessages="[formInstance.ValidationMessages]" /&gt;
+                            &lt;/Sequence&gt;
+                          &lt;/ActivityAction&gt;
+                        &lt;/ForEach&gt;
+                        &lt;ccwa:LogLine sap2010:WorkflowViewState.IdRef="LogLine_5" Text="[logPrefix+&amp;quot;Added Graduation Fees for each enrollment&amp;quot;]" /&gt;
+                      &lt;/Sequence&gt;
+                      &lt;Sequence DisplayName="Save Document" sap2010:WorkflowViewState.IdRef="Sequence_18"&gt;
+                        &lt;Sequence.Variables&gt;
+                          &lt;Variable x:TypeArguments="x:String" Name="urlString" /&gt;
+                          &lt;Variable x:TypeArguments="s:Byte[]" Name="pdfDocument" /&gt;
+                        &lt;/Sequence.Variables&gt;
+                        &lt;Sequence DisplayName="Get Pdf" sap2010:WorkflowViewState.IdRef="Sequence_15"&gt;
+                          &lt;Assign sap2010:WorkflowViewState.IdRef="Assign_9"&gt;
+                            &lt;Assign.To&gt;
+                              &lt;OutArgument x:TypeArguments="x:String"&gt;[urlString]&lt;/OutArgument&gt;
+                            &lt;/Assign.To&gt;
+                            &lt;Assign.Value&gt;
+                              &lt;InArgument x:TypeArguments="x:String"&gt;[formInstance.RendererBaseUrl + "#/viewCreator/" + formInstance.WorkflowDefinitionId.ToString + "/forms=GraduationApplication"]&lt;/InArgument&gt;
+                            &lt;/Assign.Value&gt;
+                          &lt;/Assign&gt;
+                          &lt;Persist sap2010:WorkflowViewState.IdRef="Persist_1" /&gt;
+                          &lt;cnfw:PrintUrlToPdf Forms="{x:Null}" sap2010:WorkflowViewState.IdRef="PrintUrlToPdf_1" PdfDocument="[pdfDocument]" Url="[urlString]" ValidationMessages="[formInstance.ValidationMessages]" /&gt;
+                        &lt;/Sequence&gt;
+                        &lt;If Condition="[degreeInfoGrid.Count&amp;gt;0]" sap2010:WorkflowViewState.IdRef="If_7"&gt;
+                          &lt;If.Then&gt;
+                            &lt;Sequence sap2010:WorkflowViewState.IdRef="Sequence_25"&gt;
+                              &lt;ForEach x:TypeArguments="cnce1:DocumentEntity" DisplayName="ForEach&amp;lt;DocumentEntity&amp;gt;" sap2010:WorkflowViewState.IdRef="ForEach`1_5" Values="[validDocuments]"&gt;
+                                &lt;ActivityAction x:TypeArguments="cnce1:DocumentEntity"&gt;
+                                  &lt;ActivityAction.Argument&gt;
+                                    &lt;DelegateInArgument x:TypeArguments="cnce1:DocumentEntity" Name="item" /&gt;
+                                  &lt;/ActivityAction.Argument&gt;
+                                  &lt;Sequence sap2010:WorkflowViewState.IdRef="Sequence_24"&gt;
+                                    &lt;Sequence DisplayName="Change Each Doc Status" sap2010:WorkflowViewState.IdRef="Sequence_23"&gt;
+                                      &lt;Assign sap2010:WorkflowViewState.IdRef="Assign_15"&gt;
+                                        &lt;Assign.To&gt;
+                                          &lt;OutArgument x:TypeArguments="x:Int32"&gt;[item.DocumentStatusId]&lt;/OutArgument&gt;
+                                        &lt;/Assign.To&gt;
+                                        &lt;Assign.Value&gt;
+                                          &lt;InArgument x:TypeArguments="x:Int32"&gt;[docCompleteStatus.Id]&lt;/InArgument&gt;
+                                        &lt;/Assign.Value&gt;
+                                      &lt;/Assign&gt;
+                                      &lt;Assign sap2010:WorkflowViewState.IdRef="Assign_16"&gt;
+                                        &lt;Assign.To&gt;
+                                          &lt;OutArgument x:TypeArguments="s:Nullable(s:DateTime)"&gt;[item.ReceivedDate]&lt;/OutArgument&gt;
+                                        &lt;/Assign.To&gt;
+                                        &lt;Assign.Value&gt;
+                                          &lt;InArgument x:TypeArguments="s:Nullable(s:DateTime)"&gt;[Date.Today]&lt;/InArgument&gt;
+                                        &lt;/Assign.Value&gt;
+                                      &lt;/Assign&gt;
+                                      &lt;Assign sap2010:WorkflowViewState.IdRef="Assign_17"&gt;
+                                        &lt;Assign.To&gt;
+                                          &lt;OutArgument x:TypeArguments="s:Byte[]"&gt;[item.DocumentImage]&lt;/OutArgument&gt;
+                                        &lt;/Assign.To&gt;
+                                        &lt;Assign.Value&gt;
+                                          &lt;InArgument x:TypeArguments="s:Byte[]"&gt;[pdfDocument]&lt;/InArgument&gt;
+                                        &lt;/Assign.Value&gt;
+                                      &lt;/Assign&gt;
+                                      &lt;Assign sap2010:WorkflowViewState.IdRef="Assign_18"&gt;
+                                        &lt;Assign.To&gt;
+                                          &lt;OutArgument x:TypeArguments="x:String"&gt;[item.OriginalFileName]&lt;/OutArgument&gt;
+                                        &lt;/Assign.To&gt;
+                                        &lt;Assign.Value&gt;
+                                          &lt;InArgument x:TypeArguments="x:String"&gt;["Graduation Application_"+studentId.ToString+".pdf"]&lt;/InArgument&gt;
+                                        &lt;/Assign.Value&gt;
+                                      &lt;/Assign&gt;
+                                      &lt;cncw1:SaveDocument Document="[item]" sap2010:WorkflowViewState.IdRef="SaveDocument_2" ValidationMessages="[validationMessages]" /&gt;
+                                    &lt;/Sequence&gt;
+                                  &lt;/Sequence&gt;
+                                &lt;/ActivityAction&gt;
+                              &lt;/ForEach&gt;
+                              &lt;ccwa:LogLine sap2010:WorkflowViewState.IdRef="LogLine_6" Text="[logPrefix+&amp;quot;Submit-Saved Document&amp;quot;]" /&gt;
+                            &lt;/Sequence&gt;
+                          &lt;/If.Then&gt;
+                        &lt;/If&gt;
+                      &lt;/Sequence&gt;
+                    &lt;/Sequence&gt;
+                  &lt;/TryCatch.Try&gt;
+                  &lt;TryCatch.Catches&gt;
+                    &lt;Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_1"&gt;
+                      &lt;ActivityAction x:TypeArguments="s:Exception"&gt;
+                        &lt;ActivityAction.Argument&gt;
+                          &lt;DelegateInArgument x:TypeArguments="s:Exception" Name="exception" /&gt;
+                        &lt;/ActivityAction.Argument&gt;
+                        &lt;Sequence sap2010:WorkflowViewState.IdRef="Sequence_9"&gt;
+                          &lt;ccwa:LogLine sap2010:WorkflowViewState.IdRef="LogLine_2" Text="[logPrefix+&amp;quot;Submit-Exception-&amp;quot;+exception.Message.ToString+exception.InnerException.ToString]" /&gt;
+                        &lt;/Sequence&gt;
+                      &lt;/ActivityAction&gt;
+                    &lt;/Catch&gt;
+                  &lt;/TryCatch.Catches&gt;
+                  &lt;TryCatch.Finally&gt;
+                    &lt;Assign sap2010:WorkflowViewState.IdRef="Assign_5"&gt;
+                      &lt;Assign.To&gt;
+                        &lt;OutArgument x:TypeArguments="x:String"&gt;[endMessage]&lt;/OutArgument&gt;
+                      &lt;/Assign.To&gt;
+                      &lt;Assign.Value&gt;
+                        &lt;InArgument x:TypeArguments="x:String"&gt;Thank you for submitting the Graduation Application.You cannot edit the form further!!!&lt;/InArgument&gt;
+                      &lt;/Assign.Value&gt;
+                    &lt;/Assign&gt;
+                  &lt;/TryCatch.Finally&gt;
+                &lt;/TryCatch&gt;
+              &lt;/Sequence&gt;
+            &lt;/Transition.Action&gt;
+            &lt;Transition.Condition&gt;[NOT formInstance.ValidationMessages.HasErrors]&lt;/Transition.Condition&gt;
+          &lt;/Transition&gt;
+          &lt;Transition DisplayName="Exit" sap2010:WorkflowViewState.IdRef="Transition_2"&gt;
+            &lt;Transition.Trigger&gt;
+              &lt;Sequence sap2010:WorkflowViewState.IdRef="Sequence_11"&gt;
+                &lt;cnfw:WaitForFormBookmark DisplayName="Exit" DisplayOrder="0" sap2010:WorkflowViewState.IdRef="WaitForFormBookmark_3" TransitionType="Default" /&gt;
+                &lt;ccwa:LogLine sap2010:WorkflowViewState.IdRef="LogLine_3" Text="[logPrefix+&amp;quot;Exit&amp;quot;]" /&gt;
+              &lt;/Sequence&gt;
+            &lt;/Transition.Trigger&gt;
+            &lt;Transition.To&gt;
+              &lt;x:Reference&gt;__ReferenceID0&lt;/x:Reference&gt;
+            &lt;/Transition.To&gt;
+            &lt;Transition.Action&gt;
+              &lt;Assign sap2010:WorkflowViewState.IdRef="Assign_6"&gt;
+                &lt;Assign.To&gt;
+                  &lt;OutArgument x:TypeArguments="x:String"&gt;[endMessage]&lt;/OutArgument&gt;
+                &lt;/Assign.To&gt;
+                &lt;Assign.Value&gt;
+                  &lt;InArgument x:TypeArguments="x:String"&gt;You are exiting the form without doing any changes.Please submit the form before the due date if you are not yet submitted.&lt;/InArgument&gt;
+                &lt;/Assign.Value&gt;
+              &lt;/Assign&gt;
+            &lt;/Transition.Action&gt;
+          &lt;/Transition&gt;
+        &lt;/State.Transitions&gt;
+        &lt;State.Variables&gt;
+          &lt;Variable x:TypeArguments="cnse:StudentAccountTransactionEntity" Name="chargeTransaction" /&gt;
+        &lt;/State.Variables&gt;
+      &lt;/State&gt;
+    &lt;/StateMachine.InitialState&gt;
+    &lt;x:Reference&gt;__ReferenceID1&lt;/x:Reference&gt;
+    &lt;x:Reference&gt;__ReferenceID0&lt;/x:Reference&gt;
+    &lt;StateMachine.Variables&gt;
+      &lt;Variable x:TypeArguments="x:String" Name="renderedFormImage" /&gt;
+      &lt;Variable x:TypeArguments="sco:Collection(cnce1:DocumentEntity)" Default="[new Collection(of Cmc.Nexus.Crm.Entities.DocumentEntity)]" Name="validDocuments" /&gt;
+      &lt;Variable x:TypeArguments="cncs:ReferenceItem" Name="docCompleteStatus" /&gt;
+      &lt;Variable x:TypeArguments="x:Int32" Name="studentId" /&gt;
+      &lt;Variable x:TypeArguments="cce:ValidationMessageCollection" Name="validationMessages" /&gt;
+      &lt;Variable x:TypeArguments="x:String" Name="logPrefix" /&gt;
+      &lt;Variable x:TypeArguments="cnce1:DocumentEntity[]" Name="docList" /&gt;
+    &lt;/StateMachine.Variables&gt;
+    &lt;sads:DebugSymbol.Symbol&gt;dzNDOlxVc2Vyc1xqcHJha2FzYW1cQXBwRGF0YVxMb2NhbFxUZW1wXDJcdG1wOTM3QS50bXC4AV4DpwMSAgEBnwNQnwOMAQMB5QFgB5kDDwIBBfcBD/sBFwIBAmIL2wEWAgF94AEP9AEaAgFs/gIj/gJSAgFr/gEP/AIaAgEQggMPhQMaAgELiwMPkgMYAgEH+QET+QGRAQIBBGMNexgDAcoBfA3aARgCAX7hARHhAbABAgF84gER5gEWAgF35wER8wEWAgFt/wER+wIcAgERgwMRgwOiAQIBD4QDEYQDcQIBDJADOpADtQECAQqNAzuNA0cCAQhnD2d9AwHiAWgPbxgDAd0BcA9wfwMB2gFxD3HeAQMB1AFyD3KnAQMBzwFzD3oYAwHLAYEBD4EB3gEDAcUBggEPggHjAQMBwAGDAQ+DAekBAwG7AYQBD4QB1AEDAbUBhQEPjAEYAwGxAY0BD5QBGAMBrQGVAQ/YARQDAYMB2QEP2QGRAQIBf+IBH+IBPAIBeOQBFeQB5gECAXnnAR/nAT8CAW7pARXxASACAW+BAhXjAiACARzyAhX5Ah4CARjrAhntAiQCARKEA1CEA24CAQ1nbGd6AwHjAW06bW0DAeABajtqRgMB3gFwTnB8AwHbAXFtcYYBAwHZAXG4AXHbAQMB2AFxkAFxpAEDAdcBcVZxYwMB1QFyTnJbAwHSAXKTAXKkAQMB0AF4OnhYAwHOAXU7dUgDAcwBgQGaAYEBpQEDAcgBgQG4AYEB2wEDAccBgQGGAYEBiwEDAcYBggGYAYIBqAEDAcMBggG7AYIB4AEDAcIBggGGAYIBiQEDAcEBgwGZAYMBrgEDAb4BgwHBAYMB5gEDAb0BgwGGAYMBigEDAbwBhAFahAFoAwG6AYQBc4QBfgMBuAGEAcQBhAHRAQMBtgGKATqKATsDAbQBhwE7hwFNAwGyAZIBUZIBcgMBsAGPAVKPAWYDAa4BlQEdlQE0AwGEAZcBE9MBHgMBiAHWARPWAcYBAwGFAdkBTtkBjgEDAYAB5AFx5AHDAQIBe+QBzQHkAeMBAgF66gEX7wEmAgFz8AEX8AG4AQIBcIICF48CIgIBX5ACF50CIgIBR54CF+ICIgIBHfcCQPcClwECARv0AkH0Ak0CARnsAhvsAsUBAgETmAEV0gEgAwGJAdYBb9YBowEDAYcB1gGtAdYBwwEDAYYB7AFZ7AF6AgF27gFN7gFkAgF08AFz8AGVAQIBcvABnwHwAbUBAgFxgwIZjgIkAgFgkQIZmwIjAgFLnAIZnAKeAQIBSKMCGa4CJAIBO68CGeECHgIBHuwCWuwCwgECARSaAUWaAUgDAYoBnAEXwwEhAwGXAcQBF9EBHAMBiwGEAhuLAiQCAWiMAhuMAsgBAgFkjQIbjQKTAQIBYZECvwGRAtEBAgFelgIdmQIoAgFMnAJYnAKbAQIBSaQCG6sCJAIBQ6wCG6wCUgIBQq0CG60C2QECATyvAievAkQCAR+xAh3fAigCASCcAagBnAGzAQMBrAGhARvBASYDAZgBxAElxAFCAwGMAcYBG88BJgMBjQGJAlyJApIBAgFqhgJdhgKGAQIBaYwCWYwCagIBZowCrwGMAsUBAgFljQJajQKQAQIBYpcCH5cC8AMCAVGYAh+YAsABAgFNqQJGqQLFAQIBRqYCR6YCUgIBRK0Cfq0CjQECAUCtArMBrQLWAQIBP60CkgGtAp8BAgE9sgIf3QIpAgEk3gIf3gKQAQIBIaIBHcABIgMBmQHHAR3OASIDAY4BlwLfApcCogMCAV2XArYClwLEAgIBXJcC6wGXAvsBAgFblwLJAZcC3gECAVmXAuoDlwLtAwIBWJcCrAGXArYBAgFXlwLLA5cC2QMCAVaXAq0DlwK6AwIBVJcCdpcCfAIBU5cChgGXAqABAgFSmAJCmAJXAgFPmAKaAZgCvQECAU6yArABsgLCAQIBOrcCI9sCLgIBJd4CXt4CjQECASKiASuiAYQBAwGaAaQBIa4BLAMBowGxASG+ASwDAZsBxwErxwFFAwGPAckBIckB3QIDAZQBzAEhzAHUAQMBkQG4AiXaAjACASalASOlAfMBAwGoAaYBI60BLAMBpAGyASO9ASgDAZwByQF9yQG6AgMBlgHJAcQCyQHaAgMBlQHMAX3MAbEBAwGTAcwBuwHMAdEBAwGSAbkCJ8ACMAIBN8ECJ8gCMAIBNMkCJ9ACMAIBMNECJ9gCMAIBLNkCJ9kCqgECASelAWalAXgDAasBpQHoAaUB8AEDAakBqwFOqwGVAQMBpwGoAU+oAWEDAaUBsgExsgFfAwGdAbQBJ7sBMAMBngG+AlG+AmcCATm7AlK7AmkCATjGAmDGAmwCATbDAmHDAnQCATXOAlLOAl8CATLLAlPLAmcCATHWAlLWAocBAgEu0wJT0wJqAgEt2QJE2QJMAgEq2QKRAdkCpwECASi5AVG5AWYDAaEBtgFStgFlAwGfAQ==&lt;/sads:DebugSymbol.Symbol&gt;
+  &lt;/StateMachine&gt;
+  &lt;sap2010:WorkflowViewState.ViewStateManager&gt;
+    &lt;sap2010:ViewStateManager&gt;
+      &lt;sap2010:ViewStateData Id="GetWorkflowInstanceId_1" sap:VirtualizedContainerService.HintSize="242,22" /&gt;
+      &lt;sap2010:ViewStateData Id="Assign_1" sap:VirtualizedContainerService.HintSize="242,60" /&gt;
+      &lt;sap2010:ViewStateData Id="LogLine_1" sap:VirtualizedContainerService.HintSize="242,111" /&gt;
+      &lt;sap2010:ViewStateData Id="LookupUser_1" sap:VirtualizedContainerService.HintSize="242,22" /&gt;
+      &lt;sap2010:ViewStateData Id="GetEntity`1_1" sap:VirtualizedContainerService.HintSize="242,22" /&gt;
+      &lt;sap2010:ViewStateData Id="Assign_2" sap:VirtualizedContainerService.HintSize="242,60" /&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="200,51"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;False&lt;/x:Boolean&gt;
+            &lt;x:Boolean x:Key="IsPinned"&gt;False&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="LookupReferenceItem_1" sap:VirtualizedContainerService.HintSize="1183,177" /&gt;
+      &lt;sap2010:ViewStateData Id="LookupReferenceItem_2" sap:VirtualizedContainerService.HintSize="1183,177" /&gt;
+      &lt;sap2010:ViewStateData Id="LookupReferenceItem_3" sap:VirtualizedContainerService.HintSize="1183,177" /&gt;
+      &lt;sap2010:ViewStateData Id="LookupStudentDocuments_1" sap:VirtualizedContainerService.HintSize="1183,114" /&gt;
+      &lt;sap2010:ViewStateData Id="Assign_7" sap:VirtualizedContainerService.HintSize="1183,60" /&gt;
+      &lt;sap2010:ViewStateData Id="Assign_3" sap:VirtualizedContainerService.HintSize="1183,60" /&gt;
+      &lt;sap2010:ViewStateData Id="AddToCollection`1_1" sap:VirtualizedContainerService.HintSize="242,22" /&gt;
+      &lt;sap2010:ViewStateData Id="Assign_8" sap:VirtualizedContainerService.HintSize="242,60" /&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_12" sap:VirtualizedContainerService.HintSize="264,246"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="Assign_14" sap:VirtualizedContainerService.HintSize="242,60" /&gt;
+      &lt;sap2010:ViewStateData Id="If_1" sap:VirtualizedContainerService.HintSize="200,51"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;False&lt;/x:Boolean&gt;
+            &lt;x:Boolean x:Key="IsPinned"&gt;False&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_2" sap:VirtualizedContainerService.HintSize="222,175"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="If_2" sap:VirtualizedContainerService.HintSize="511,394" /&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_26" sap:VirtualizedContainerService.HintSize="533,518"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="ForEach`1_1" sap:VirtualizedContainerService.HintSize="800,666"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+            &lt;x:Boolean x:Key="IsPinned"&gt;False&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="CreateValidationItem_5" sap:VirtualizedContainerService.HintSize="314,111" /&gt;
+      &lt;sap2010:ViewStateData Id="CreateValidationItem_6" sap:VirtualizedContainerService.HintSize="314,111" /&gt;
+      &lt;sap2010:ViewStateData Id="If_6" sap:VirtualizedContainerService.HintSize="653,259" /&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_20" sap:VirtualizedContainerService.HintSize="675,383"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="If_3" sap:VirtualizedContainerService.HintSize="800,531" /&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_3" sap:VirtualizedContainerService.HintSize="822,1361"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_27" sap:VirtualizedContainerService.HintSize="844,1485"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="CreateValidationItem_3" sap:VirtualizedContainerService.HintSize="314,111" /&gt;
+      &lt;sap2010:ViewStateData Id="If_4" sap:VirtualizedContainerService.HintSize="1183,1633"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+            &lt;x:Boolean x:Key="IsPinned"&gt;False&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="LogLine_7" sap:VirtualizedContainerService.HintSize="1183,111" /&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_4" sap:VirtualizedContainerService.HintSize="200,51"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;False&lt;/x:Boolean&gt;
+            &lt;x:Boolean x:Key="IsPinned"&gt;False&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_5" sap:VirtualizedContainerService.HintSize="222,266"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="WaitForFormBookmark_1" sap:VirtualizedContainerService.HintSize="464,22" /&gt;
+      &lt;sap2010:ViewStateData Id="CreateValidationItem_9" sap:VirtualizedContainerService.HintSize="314,111" /&gt;
+      &lt;sap2010:ViewStateData Id="If_10" sap:VirtualizedContainerService.HintSize="464,259" /&gt;
+      &lt;sap2010:ViewStateData Id="InvokeMethod_1" sap:VirtualizedContainerService.HintSize="314,134" /&gt;
+      &lt;sap2010:ViewStateData Id="CreateValidationItem_4" sap:VirtualizedContainerService.HintSize="314,111" /&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_6" sap:VirtualizedContainerService.HintSize="336,409"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="If_5" sap:VirtualizedContainerService.HintSize="464,557"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+            &lt;x:Boolean x:Key="IsPinned"&gt;False&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_7" sap:VirtualizedContainerService.HintSize="486,1042"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="WaitForFormBookmark_2" sap:VirtualizedContainerService.HintSize="200,22" /&gt;
+      &lt;sap2010:ViewStateData Id="State_1" sap:VirtualizedContainerService.HintSize="114,61"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;av:Point x:Key="ShapeLocation"&gt;293,279.5&lt;/av:Point&gt;
+            &lt;av:Size x:Key="ShapeSize"&gt;114,61&lt;/av:Size&gt;
+            &lt;x:Boolean x:Key="IsPinned"&gt;False&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="Assign_4" sap:VirtualizedContainerService.HintSize="242,60" /&gt;
+      &lt;sap2010:ViewStateData Id="SaveEntity`1_1" sap:VirtualizedContainerService.HintSize="242,22" /&gt;
+      &lt;sap2010:ViewStateData Id="LogLine_4" sap:VirtualizedContainerService.HintSize="242,111" /&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_13" sap:VirtualizedContainerService.HintSize="264,397"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_8" sap:VirtualizedContainerService.HintSize="200,51"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;False&lt;/x:Boolean&gt;
+            &lt;x:Boolean x:Key="IsPinned"&gt;False&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="CreateCharge_2" sap:VirtualizedContainerService.HintSize="314,498" /&gt;
+      &lt;sap2010:ViewStateData Id="SaveCharge_2" sap:VirtualizedContainerService.HintSize="314,22" /&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_22" sap:VirtualizedContainerService.HintSize="336,684"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+            &lt;x:Boolean x:Key="IsPinned"&gt;False&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="ForEach`1_4" sap:VirtualizedContainerService.HintSize="366,832" /&gt;
+      &lt;sap2010:ViewStateData Id="LogLine_5" sap:VirtualizedContainerService.HintSize="366,111" /&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_14" sap:VirtualizedContainerService.HintSize="200,51"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;False&lt;/x:Boolean&gt;
+            &lt;x:Boolean x:Key="IsPinned"&gt;False&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="Assign_9" sap:VirtualizedContainerService.HintSize="242,60" /&gt;
+      &lt;sap2010:ViewStateData Id="Persist_1" sap:VirtualizedContainerService.HintSize="242,22" /&gt;
+      &lt;sap2010:ViewStateData Id="PrintUrlToPdf_1" sap:VirtualizedContainerService.HintSize="242,22" /&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_15" sap:VirtualizedContainerService.HintSize="464,308"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="Assign_15" sap:VirtualizedContainerService.HintSize="242,60" /&gt;
+      &lt;sap2010:ViewStateData Id="Assign_16" sap:VirtualizedContainerService.HintSize="242,60" /&gt;
+      &lt;sap2010:ViewStateData Id="Assign_17" sap:VirtualizedContainerService.HintSize="242,60" /&gt;
+      &lt;sap2010:ViewStateData Id="Assign_18" sap:VirtualizedContainerService.HintSize="242,60" /&gt;
+      &lt;sap2010:ViewStateData Id="SaveDocument_2" sap:VirtualizedContainerService.HintSize="242,22" /&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_23" sap:VirtualizedContainerService.HintSize="200,51"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;False&lt;/x:Boolean&gt;
+            &lt;x:Boolean x:Key="IsPinned"&gt;False&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_24" sap:VirtualizedContainerService.HintSize="222,175"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="ForEach`1_5" sap:VirtualizedContainerService.HintSize="287,323" /&gt;
+      &lt;sap2010:ViewStateData Id="LogLine_6" sap:VirtualizedContainerService.HintSize="287,111" /&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_25" sap:VirtualizedContainerService.HintSize="309,598"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="If_7" sap:VirtualizedContainerService.HintSize="464,746" /&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_18" sap:VirtualizedContainerService.HintSize="486,1218"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;False&lt;/x:Boolean&gt;
+            &lt;x:Boolean x:Key="IsPinned"&gt;False&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_19" sap:VirtualizedContainerService.HintSize="222,357"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="LogLine_2" sap:VirtualizedContainerService.HintSize="214,111" /&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_9" sap:VirtualizedContainerService.HintSize="236,232"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="Catch`1_1" sap:VirtualizedContainerService.HintSize="404,21"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;False&lt;/x:Boolean&gt;
+            &lt;x:Boolean x:Key="IsPinned"&gt;False&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="Assign_5" sap:VirtualizedContainerService.HintSize="242,60" /&gt;
+      &lt;sap2010:ViewStateData Id="TryCatch_1" sap:VirtualizedContainerService.HintSize="418,584" /&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_10" sap:VirtualizedContainerService.HintSize="440,708"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="Transition_1" sap:VirtualizedContainerService.HintSize="528,2093"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Int32 x:Key="SrcConnectionPointIndex"&gt;3&lt;/x:Int32&gt;
+            &lt;x:Int32 x:Key="DestConnectionPointIndex"&gt;2&lt;/x:Int32&gt;
+            &lt;av:PointCollection x:Key="ConnectorLocation"&gt;55.7,141 55.7,236.12 298.7,236.12 298.7,279.5&lt;/av:PointCollection&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="WaitForFormBookmark_3" sap:VirtualizedContainerService.HintSize="214,22" /&gt;
+      &lt;sap2010:ViewStateData Id="LogLine_3" sap:VirtualizedContainerService.HintSize="214,111" /&gt;
+      &lt;sap2010:ViewStateData Id="Sequence_11" sap:VirtualizedContainerService.HintSize="236,297"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;True&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="Assign_6" sap:VirtualizedContainerService.HintSize="242,60" /&gt;
+      &lt;sap2010:ViewStateData Id="Transition_2" sap:VirtualizedContainerService.HintSize="430,750"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;av:PointCollection x:Key="ConnectorLocation"&gt;107,141 107,171 350,171 350,279.5&lt;/av:PointCollection&gt;
+            &lt;x:Int32 x:Key="SrcConnectionPointIndex"&gt;39&lt;/x:Int32&gt;
+            &lt;x:Int32 x:Key="DestConnectionPointIndex"&gt;38&lt;/x:Int32&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="State_2" sap:VirtualizedContainerService.HintSize="114,61"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;av:Point x:Key="ShapeLocation"&gt;50,80&lt;/av:Point&gt;
+            &lt;av:Size x:Key="ShapeSize"&gt;114,61&lt;/av:Size&gt;
+            &lt;x:Boolean x:Key="IsPinned"&gt;False&lt;/x:Boolean&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="StateMachine_1" sap:VirtualizedContainerService.HintSize="614,636"&gt;
+        &lt;sap:WorkflowViewStateService.ViewState&gt;
+          &lt;scg:Dictionary x:TypeArguments="x:String, x:Object"&gt;
+            &lt;x:Boolean x:Key="IsExpanded"&gt;False&lt;/x:Boolean&gt;
+            &lt;av:Point x:Key="ShapeLocation"&gt;270,2.5&lt;/av:Point&gt;
+            &lt;x:Double x:Key="StateContainerWidth"&gt;600&lt;/x:Double&gt;
+            &lt;x:Double x:Key="StateContainerHeight"&gt;600&lt;/x:Double&gt;
+            &lt;av:PointCollection x:Key="ConnectorLocation"&gt;300,77.5 300,83.05 164,83.05&lt;/av:PointCollection&gt;
+          &lt;/scg:Dictionary&gt;
+        &lt;/sap:WorkflowViewStateService.ViewState&gt;
+      &lt;/sap2010:ViewStateData&gt;
+      &lt;sap2010:ViewStateData Id="GraduationApplication_Seq_1" sap:VirtualizedContainerService.HintSize="654,716" /&gt;
+    &lt;/sap2010:ViewStateManager&gt;
+  &lt;/sap2010:WorkflowViewState.ViewStateManager&gt;
+&lt;/Activity&gt;</Xaml>
+      <Version>15</Version>
+      <Major>1</Major>
+      <Minor>0</Minor>
+      <Build>0</Build>
+      <Revision>15</Revision>
+      <PublishedBy>jprakasam</PublishedBy>
+      <SourceLocation>100537cts20 [Workflow Designer]</SourceLocation>
+      <DateCreated>2020-02-05T10:54:37.667</DateCreated>
+      <DateModified>2020-02-05T10:54:37.667</DateModified>
+      <IsEnabled>true</IsEnabled>
+      <Id>0</Id>
+      <OriginalState>H4sIAAAAAAAEALXUwU7DMAwA0F+Zeqfp2K3qKjHGYWLVEEWwq5c6qyGNpySllK9nDRK3cZiUSy6Wny07SXFnLYw79YjjK+ged8p5S+YIZnwZTzj76rRxy6T1/pQL4WSLHbi0I2nZsfKp5E7cZtlCzDNRoyXQ9A2e2IgAu+RXyOnPGIYhHRYp2+OUOBf7alsH9oaM82AkJmVxoZ0QKN/YfijNwxoVGZqKbZpCTJEiJM0oN6SXibc9JqIMoYva5TJ76HQEtoJ3tjFcMlHcVU86xnif8ZPceXcR6I17MHDQGKPtmnsrccsy3PIIBZ76gybXYrMaI+hr8Hhv8XzGGM6kV9yQoij8tc9c/P/JlT9at+wSBQUAAA==</OriginalState>
+      <SecureState>H4sIAAAAAAAEAD3MQQrCMBAAwK9I7mZTeysqeFbpoSJel5C0C01Ssisxvl6s4ANm9qecsfb+7Ood56frPUumOGKst7q4zSvMkQ9qElk6ALaTC8g6kM2JkxdtU4CdMS00BgaXCWd6o1CKsMasfkNH/6OUokurUx6/sIHH9TKs7ZYiC0brFBw/juQnSpcAAAA=</SecureState>
+      <EntityState>0</EntityState>
+    </EnabledWorkflowDefinitionVersion>
+  </ExportedSequences>
+  <FormsBuilderVersion>3.6.2.1</FormsBuilderVersion>
+  <ExportedDateTimeInUtc>02/05/2020 14:59:05</ExportedDateTimeInUtc>
+  <DbConnectionString>data source=10.108.30.68;initial catalog=test_100537;User ID=100537dbtest;Password=!tiEvW{cvCcm;Persist Security Info=False;Pooling=True;MultipleActiveResultSets=True;Application Name=Forms Builder</DbConnectionString>
+</Export>
